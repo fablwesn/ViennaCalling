@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- default margin/padding/space -->
+    <dimen name="space_small_dp">2dp</dimen>
+    <dimen name="space_medium_dp">8dp</dimen>
+    <dimen name="space_large_dp">16dp</dimen>
+
+    <!-- Header height, used across all (portrait) activities -->
+    <dimen name="header_image_height">196dp</dimen>
+
+    <!-- top tab height used across all activities -->
+    <dimen name="tab_height">48dp</dimen>
+
+    <!-- HomePage text sizes -->
+    <dimen name="main_text_subheader_sp">24dp</dimen>
+    <dimen name="main_text_header_sp">32dp</dimen>
+
+    <!-- categories activity list item dimensions -->
+    <dimen name="categories_list_item_height">104dp</dimen>
+    <dimen name="categories_list_image_width">156dp</dimen>
+
+    <!-- height of the expandable list header inside more tab of categories activity -->
+    <dimen name="categories_exp_list_header_height">48dp</dimen>
+
+    <!-- margin used for the home button inside the detail activity -->
+    <dimen name="detail_home_icon_margin">12dp</dimen>
+
+    <!-- width and height of the image switcher inside the detail activity -->
+    <dimen name="detail_image_size">128dp</dimen>
+
+    <!-- width and height used for the previous and next button for the imageswitcher inside the detail activity -->
+    <dimen name="detail_navigate_icon_size">24dp</dimen>
+</resources>

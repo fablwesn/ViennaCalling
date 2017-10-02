@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯-->
+    <!--
+                                        Main Activity
+                                        ¯¯¯¯¯¯¯¯¯¯¯¯¯
+    -->
+    <!-- View used for Text Alignment inside the header (inside all activities, portrait) -->
+    <item name="view_header_alignment" type="id" />
+
+    <!-- IDs for the parent layout of each category button -->
+    <item name="main_rel_lay_home_hotels" type="id" />
+    <item name="main_rel_lay_home_events" type="id" />
+    <item name="main_rel_lay_home_sightseeing" type="id" />
+    <item name="main_rel_lay_home_nightlife" type="id" />
+    <item name="main_rel_lay_home_more" type="id" />
+    <!--_________________________________________________________________________________________-->
+
+    <!--¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯-->
+    <!--
+                                    Categories Activity
+                                    ¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+    -->
+    <!-- ViewPager in the categories activity -->
+    <item name="categories_vpager" type="id" />
+
+    <!-- Tabs atop the pager -->
+    <item name="categories_tablay_vpager" type="id" />
+
+    <!--
+        Category 0,1,2 & 3 Content
+    -->
+    <!-- ListView parent of the categories activity -->
+    <item name="categories_listview_parent" type="id" />
+
+    <!-- Views inside one single List Item displayed -->
+    <item name="categories_list_item_image" type="id" />
+    <item name="categories_list_item_title_text" type="id" />
+    <item name="categories_list_item_ratingbar" type="id" />
+    <item name="categories_list_item_body_text" type="id" />
+    <item name="categories_list_item_sub_text" type="id" />
+
+    <!--
+        Category 4 Content
+    -->
+    <!-- ExpandableList Item Views from the categories activity (on more tab) -->
+    <item name="categories_expand_list_parent" type="id" />
+    <item name="categories_expand_list_header_text" type="id" />
+    <item name="categories_expand_list_child_text" type="id" />
+
+    <!-- google map view used in the categories activity (on more tab)  -->
+    <item name="categories_map_view" type="id" />
+    <!-- home button image view on top of the map inside the categories activity (on more tab) -->
+    <item name="categories_image_home_map_clickable" type="id" />
+    <!--_________________________________________________________________________________________-->
+
+    <!--¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯-->
+    <!--
+                                      Details Activity
+                                      ¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+    -->
+    <item name="detail_title_text" type="id" />
+    <item name="detail_home_button" type="id" />
+    <item name="detail_image_switcher" type="id" />
+    <item name="detail_prev_image" type="id" />
+    <item name="detail_next_image" type="id" />
+    <item name="detail_short_descr" type="id" />
+    <item name="detail_address" type="id" />
+    <item name="detail_body_text" type="id" />
+    <item name="detail_rating_bar" type="id" />
+    <!--_________________________________________________________________________________________-->
+</resources>

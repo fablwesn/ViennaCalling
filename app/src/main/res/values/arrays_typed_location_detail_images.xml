@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+
+    contains all the image res ids for every location displayed inside the detail activity, expandable
+-->
+<resources>
+    <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+    <!--
+        hotels
+     -->
+    <array name="img_id_detail_hotel_hyatt">
+        <item>@drawable/img_detail_hotel_hyatt_00</item>
+        <item>@drawable/img_detail_hotel_hyatt_01</item>
+    </array>
+
+    <array name="img_id_detail_hotel_imperial">
+        <item>@drawable/img_detail_hotel_imperial_00</item>
+        <item>@drawable/img_detail_hotel_imperial_01</item>
+    </array>
+
+    <array name="img_id_detail_hotel_coburg">
+        <item>@drawable/img_detail_hotel_coburg_00</item>
+        <item>@drawable/img_detail_hotel_coburg_01</item>
+    </array>
+
+    <array name="img_id_detail_hotel_hilton">
+        <item>@drawable/img_detail_hotel_hilton_00</item>
+        <item>@drawable/img_detail_hotel_hilton_01</item>
+    </array>
+
+    <array name="img_id_detail_hotel_arcotel">
+        <item>@drawable/img_detail_hotel_arcotel_00</item>
+        <item>@drawable/img_detail_hotel_arcotel_01</item>
+    </array>
+
+    <array name="img_id_detail_hotel_starinn">
+        <item>@drawable/img_detail_hotel_starinn_00</item>
+        <item>@drawable/img_detail_hotel_starinn_01</item>
+    </array>
+
+    <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+    <!--
+       events
+    -->
+    <array name="img_id_detail_event_danube">
+        <item>@drawable/img_detail_event_danube_00</item>
+        <item>@drawable/img_detail_event_danube_01</item>
+    </array>
+
+    <array name="img_id_detail_event_opera">
+        <item>@drawable/img_detail_event_opera_00</item>
+        <item>@drawable/img_detail_event_opera_01</item>
+    </array>
+
+    <array name="img_id_detail_event_newyear">
+        <item>@drawable/img_detail_event_newyear_00</item>
+        <item>@drawable/img_detail_event_newyear_01</item>
+    </array>
+
+    <array name="img_id_detail_event_life">
+        <item>@drawable/img_detail_event_ball_00</item>
+        <item>@drawable/img_detail_event_ball_01</item>
+    </array>
+
+    <array name="img_id_detail_event_christmas">
+        <item>@drawable/img_detail_event_christmas_00</item>
+        <item>@drawable/img_detail_event_christmas_01</item>
+    </array>
+
+    <array name="img_id_detail_event_impuls">
+        <item>@drawable/img_detail_event_impuls_00</item>
+        <item>@drawable/img_detail_event_impuls_01</item>
+    </array>
+
+    <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+    <!--
+      sights
+   -->
+    <array name="img_id_detail_sight_schoenbrunn">
+        <item>@drawable/img_detail_sight_schoenbrunn_00</item>
+        <item>@drawable/img_detail_sight_schoenbrunn_01</item>
+    </array>
+
+    <array name="img_id_detail_sight_cathedral">
+        <item>@drawable/img_detail_sight_cathedral_00</item>
+        <item>@drawable/img_detail_sight_cathedral_01</item>
+    </array>
+
+    <array name="img_id_detail_sight_zoo">
+        <item>@drawable/img_detail_sight_zoo_00</item>
+        <item>@drawable/img_detail_sight_zoo_01</item>
+    </array>
+
+    <array name="img_id_detail_sight_prater">
+        <item>@drawable/img_detail_sight_prater_00</item>
+        <item>@drawable/img_detail_sight_prater_01</item>
+    </array>
+
+    <array name="img_id_detail_sight_museum">
+        <item>@drawable/img_detail_sight_museum_00</item>
+        <item>@drawable/img_detail_sight_museum_01</item>
+    </array>
+
+    <array name="img_id_detail_sight_sea">
+        <item>@drawable/img_detail_sight_sea_00</item>
+        <item>@drawable/img_detail_sight_sea_01</item>
+    </array>
+
+    <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+    <!--
+      nightlife
+   -->
+    <array name="img_id_detail_nightlife_dome">
+        <item>@drawable/img_detail_nightlife_dome_00</item>
+        <item>@drawable/img_detail_nightlife_dome_01</item>
+    </array>
+
+    <array name="img_id_detail_nightlife_onyx">
+        <item>@drawable/img_detail_nightlife_onyx_00</item>
+        <item>@drawable/img_detail_nightlife_onyx_01</item>
+    </array>
+
+    <array name="img_id_detail_nightlife_shack">
+        <item>@drawable/img_detail_nightlife_shack_00</item>
+        <item>@drawable/img_detail_nightlife_shack_01</item>
+    </array>
+
+    <array name="img_id_detail_nightlife_fledermaus">
+        <item>@drawable/img_detail_nightlife_fledermaus_00</item>
+        <item>@drawable/img_detail_nightlife_fledermaus_01</item>
+    </array>
+
+    <array name="img_id_detail_nightlife_badeschiff">
+        <item>@drawable/img_detail_nightlife_schiff_00</item>
+        <item>@drawable/img_detail_nightlife_schiff_01</item>
+    </array>
+</resources>

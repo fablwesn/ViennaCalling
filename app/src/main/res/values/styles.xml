@@ -1,0 +1,40 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Base.Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:colorBackground">@color/colorBackground</item>
+    </style>
+    <!-- removed actionbar -->
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+
+    <!-- header title text  inside all activities -->
+    <style name="MainTextHeadlineLarge">
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="fontPath">fonts/LaughingAndSmiling.ttf</item>
+        <item name="android:textSize">@dimen/main_text_header_sp</item>
+    </style>
+
+    <!-- button title text inside main activity-->
+    <style name="MainTextHeadline">
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="fontPath">fonts/LaughingAndSmiling.ttf</item>
+        <item name="android:textSize">@dimen/main_text_subheader_sp</item>
+    </style>
+
+
+    <!-- Rating bar used in activity_detail -->
+    <style name="DetailCustomRatingBar" parent="@android:style/Widget.RatingBar">
+        <item name="android:progressDrawable">@drawable/style_ratingbar</item>
+        <item name="android:minHeight">32dp</item>
+        <item name="android:maxHeight">32dp</item>
+    </style>
+</resources>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+
+    contains all the nightlife text displayed
+
+    - Title Text
+    - SubText (next to the rating)
+    - Body Text
+    - Address Text
+    - Detailed Description Text
+-->
+<resources>
+    <string-array name="location_nightlife_titles">
+        <item>Prater Dome</item>
+        <item>Onyx Bar</item>
+        <item>Travel Shack</item>
+        <item>Cabaret Fledermaus</item>
+        <item>Badeschiff</item>
+    </string-array>
+
+    <string-array name="location_nightlife_subtext">
+        <item>1020, Vienna</item>
+        <item>1010, Vienna</item>
+        <item>1150, Vienna</item>
+        <item>1010, Vienna</item>
+        <item>1010, Vienna</item>
+    </string-array>
+
+    <string-array name="location_nightlife_bodytext">
+        <item>Disco including a bar with a waterfall.</item>
+        <item>Upmarket bar.</item>
+        <item>Vienna’s most international and famous backpacker bar.</item>
+        <item>Club with old cabaret stage.</item>
+        <item>Trendy venue on a boat.</item>
+    </string-array>
+
+    <string-array name="location_nightlife_adresses">
+        <item>Riesenradplatz 7, 1020 Wien</item>
+        <item>Stephansplatz 12, 1010 Wien</item>
+        <item>Mariahilfer Gürtel 21, 1150 Wien</item>
+        <item>Spiegelgasse 2, 1010 Wien</item>
+        <item>Donaukanal, 1010 Wien</item>
+    </string-array>
+
+    <string-array name="location_nightlife_desc">
+        <item>
+            Austria\'s largest disco offers a party mood for dance fans at the Riesenradplatz in Vienna\'s Prater. Every Thursday, Friday, and Saturday, as well as on nights before public holidays, the doors of the Prater Dome open for night owls 18 years and over.
+            \n\nOn two levels with four dance floors and twelve theme bars in all, there is something for everyone with continuous variations. The music also fulfills every wish: from house, technotrance, R’n’B, and soul to the 70’s, 90’s, salsa and latino.
+            \n\nA special highlight is the sensational midnight opening: Accompanied by a spectacular laser show, the moveable walls turn the two main dance floors into a huge unique dancing palace.
+        </item>
+        <item>
+            Exquisite cocktails, excellent service and the most beautiful view of the city is available in the Onyx Bar. The Haas House on Stephansplatz, designed by famous Viennese architect Hans Hollein, is not only one of the most beautiful contemporary buildings in the city, but is also a refuge of urbane luxury.
+            \n\nHere, directly opposite St. Stephen\'s Cathedral, is the exclusive Onyx Bar - on the sixth floor of the building.  The generously sized glass facade offers a unique panorama with a direct view of St. Stephen\'s, which gleams in breathtaking light at night. While, during the daytime, cosmopolitan flair and Viennese gemütlichkeit are celebrated with coffee and small culinary highlights, in the evenings, the Onyx Bar changes into a pulsating hotspot of Vienna night life.
+            \n\nPoliticians and actors can be encountered here just as frequently as the odd international celebrity and local wannabes. Regardless of whether you are famous of not - a smart dress code is obligatory for all guests.
+            \n\nAnd the exquisite drinks perfectly complement the stylish attire of the guests. The extensive range of bar drinks leaves nothing to be desired, not even with the most unusual request.
+        </item>
+        <item>
+            Crazy Bar for Students.
+        </item>
+        <item>
+            Club with old cabaret stage &amp; interior, hosting swing dance, disco, indie, soul, funk nights &amp; more.
+        </item>
+        <item>
+            Trendy venue on a boat, with bar, restaurant, sun deck &amp; swimming pool, plus DJs &amp; live music.
+        </item>
+    </string-array>
+</resources>

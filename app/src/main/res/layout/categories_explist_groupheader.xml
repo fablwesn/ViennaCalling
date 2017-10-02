@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+
+    Layout for the group header of the expandable list view inside the more tab of the categories activity
+-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/categories_list_item_height"
+    android:background="@color/colorPrimaryLight"
+    android:orientation="vertical"
+    android:paddingBottom="16dp"
+    android:paddingTop="16dp">
+
+    <!-- title textview -->
+    <TextView
+        android:id="@id/categories_expand_list_header_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:paddingEnd="@dimen/space_medium_dp"
+        android:paddingLeft="?android:attr/expandableListPreferredItemPaddingLeft"
+        android:paddingRight="@dimen/space_medium_dp"
+        android:paddingStart="?android:attr/expandableListPreferredItemPaddingLeft"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Headline"
+        android:textColor="@android:color/white" />
+</LinearLayout>

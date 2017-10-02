@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+
+    Layout for a single list item for the first 4 categories (hotel as example)
+-->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/categories_list_item_height"
+    android:orientation="horizontal">
+
+    <!-- Preview image of the location -->
+    <ImageView
+        android:id="@id/categories_list_item_image"
+        android:layout_width="@dimen/categories_list_image_width"
+        android:layout_height="@dimen/categories_list_item_height"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginEnd="@dimen/space_small_dp"
+        android:layout_marginRight="@dimen/space_small_dp"
+        android:adjustViewBounds="true"
+        android:scaleType="centerCrop"
+        tools:src="@drawable/img_list_hotels_hyatt" />
+
+    <!-- Title text for the location -->
+    <TextView
+        android:id="@id/categories_list_item_title_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginEnd="@dimen/space_medium_dp"
+        android:layout_marginRight="@dimen/space_medium_dp"
+        android:layout_marginTop="@dimen/space_medium_dp"
+        android:layout_toEndOf="@id/categories_list_item_image"
+        android:layout_toRightOf="@id/categories_list_item_image"
+        android:ellipsize="end"
+        android:gravity="top"
+        android:maxLines="1"
+        android:textAppearance="?android:textAppearanceMedium"
+        android:textStyle="bold"
+        tools:text="Park Hyatt" />
+
+    <!-- total user rating for location -->
+    <RatingBar
+        android:id="@id/categories_list_item_ratingbar"
+        style="@style/Base.Widget.AppCompat.RatingBar.Small"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/categories_list_item_title_text"
+        android:layout_marginBottom="@dimen/space_medium_dp"
+        android:layout_marginEnd="@dimen/space_large_dp"
+        android:layout_marginRight="@dimen/space_large_dp"
+        android:layout_marginTop="@dimen/space_small_dp"
+        android:layout_toEndOf="@id/categories_list_item_image"
+        android:layout_toRightOf="@id/categories_list_item_image"
+        android:numStars="5"
+        android:stepSize="0.5" />
+
+    <!-- subtext used on some locations, locate beside the rating -->
+    <TextView
+        android:id="@id/categories_list_item_sub_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/categories_list_item_ratingbar"
+        android:layout_alignTop="@id/categories_list_item_ratingbar"
+        android:layout_below="@id/categories_list_item_title_text"
+        android:layout_marginEnd="@dimen/space_large_dp"
+        android:layout_marginRight="@dimen/space_large_dp"
+        android:layout_marginTop="@dimen/space_small_dp"
+        android:layout_toEndOf="@id/categories_list_item_ratingbar"
+        android:layout_toRightOf="@id/categories_list_item_ratingbar"
+        android:gravity="center"
+        android:textAppearance="?android:textAppearanceSmall"
+        android:textSize="10sp"
+        tools:text="5-Star Hotel" />
+
+    <!-- body text, a short description of the location -->
+    <TextView
+        android:id="@id/categories_list_item_body_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_below="@id/categories_list_item_ratingbar"
+        android:layout_marginBottom="@dimen/space_medium_dp"
+        android:layout_marginEnd="@dimen/space_large_dp"
+        android:layout_marginRight="@dimen/space_large_dp"
+        android:layout_toEndOf="@id/categories_list_item_image"
+        android:layout_toRightOf="@id/categories_list_item_image"
+        android:gravity="bottom"
+        android:textAppearance="?android:textAppearanceSmall"
+        tools:text="Die künstlerische Seele Wiens wartet auf Sie!" />
+
+    <!-- arrow image on the right to indicate interaction -->
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_margin="@dimen/space_small_dp"
+        android:src="@drawable/vector_keyboard_arrow_right_black_24dp" />
+
+    <!-- shades the whole layout when interacted with -->
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="?android:attr/selectableItemBackground" />
+
+</RelativeLayout>

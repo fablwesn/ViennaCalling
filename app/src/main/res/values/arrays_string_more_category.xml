@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+
+    contains all the expandable list text displayed
+
+    ! first item is always the group header title !
+-->
+<resources>
+    <string-array name="more_explist_item_numbers">
+        <item>Emergency Telephone Numbers</item>
+        <item>Fire Service: 122</item>
+        <item>Police: 133</item>
+        <item>Ambulance : 144</item>
+        <item>European emergency: 112</item>
+        <item>ViennaMed doctor\'s hotline for visitors: +43 1 513 95 95</item>
+        <item>Car Breakdown Services: 120 (ÖAMTC) | 123 (ARBÖ)</item>
+    </string-array>
+
+    <string-array name="more_explist_item_info">
+        <item>General Information</item>
+        <item>Area: 414 km²</item>
+        <item>Districts: 23</item>
+        <item>Population: 1.7 million</item>
+        <item>Elevation: 171 m</item>
+        <item>Language: German</item>
+        <item>Currency: Euro</item>
+        <item>Time zone: CET (GMT/UCT+1), Daylight saving time from March to October</item>
+        <item>Electricity: typical mains voltage for households is 230 volts (alternating current</item>
+    </string-array>
+
+    <string-array name="more_explist_item_transport">
+        <item>Public Transport</item>
+        <item>Vienna\'s public transport network covers 1.150 km. The five subway lines, 29 tram lines and 127 bus lines bring you quickly and reliably to your destination.</item>
+    </string-array>
+
+    <string-array name="more_explist_item_holidays">
+        <item>Public Holidays</item>
+        <item>1st January - New Year</item>
+        <item>6th January - Twelfth Night</item>
+        <item>17th April - Easter Monday</item>
+        <item>1st May - Labor Day</item>
+        <item>25th May - Ascension</item>
+        <item>5th June - Whitmonday</item>
+        <item>15th June - Corpus Christi</item>
+        <item>15th August - Mary Ascension</item>
+        <item>26th October - National Holiday</item>
+        <item>1st November - All Saints\’ Day</item>
+        <item>8th December - Immaculate Conception (stores are open)</item>
+        <item>25th December - Christmas Day</item>
+        <item>26th December - Boxing Day, St. Stephen\’s Day</item>
+    </string-array>
+
+    <string-array name="more_explist_item_vacations">
+        <item>School Vacations</item>
+        <item>24.12.2017 &#8211; 07.01.2018 - Christmas holidays</item>
+        <item>03.02.2018 &#8211; 11.02.2018 - Semester break</item>
+        <item>24.03.2018 &#8211; 03.04.2018 - Easter holidays</item>
+        <item>19.05.2018 &#8211; 22.05.2018 - Pentecost</item>
+        <item>30.06.2018 &#8211; 02.09.2018 - Summer break</item>
+    </string-array>
+
+    <string-array name="more_explist_item_units">
+        <item>Units of Measure</item>
+        <item>1 gram (g)  =  0.0353 ounces</item>
+        <item>1 kilo(gram) (kg) = 2.204 pounds</item>
+        <item>1 centimeter (cm)  =  0.393 inches</item>
+        <item>1 meter (m)  =  3.281 feet / 1.093 yards</item>
+        <item>1 kilometer (km)  =  0.621 miles</item>
+        <item>&#160;</item>
+        <item>1 ounce (oz) = 28.349 grams</item>
+        <item>1 pound (lb) = 0.453 kilo(grams)</item>
+        <item>1 inch (in) = 2.540 centimeters</item>
+        <item>1 foot (ft) = 0.304 meters</item>
+        <item>1 yard (yd) = 3 feet = 0.914 meters</item>
+        <item>1 mile (mi) = 1760 yards = 1,609 kilometers</item>
+        <item>&#160;</item>
+        <item>1 US pint (pt) = 0.473 liters</item>
+        <item>1 UK pint (pt) = 0.568 liters</item>
+        <item>1 US gallon (gal) = 3.785 liters</item>
+        <item>1 UK gallon (gal) = 4.456 liters</item>
+    </string-array>
+</resources>

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+
+    contains all the event text displayed
+
+    - Title Text
+    - SubText (next to the rating)
+    - Body Text
+    - Address Text
+    - Detailed Description Text
+-->
+<resources>
+    <string-array name="location_event_titles">
+        <item>Danube Island Festival</item>
+        <item>Vienna Opera Ball</item>
+        <item>New Years Concert</item>
+        <item>Life Ball</item>
+        <item>Christmas Markets</item>
+        <item>Festival ImPulsTanz</item>
+    </string-array>
+
+    <string-array name="location_event_subtext">
+        <item>every summer</item>
+        <item>every february</item>
+        <item>31.12 &#8211; 01.01.</item>
+        <item>every summer</item>
+        <item>every winter</item>
+        <item>every summer</item>
+    </string-array>
+
+    <string-array name="location_event_bodytext">
+        <item>Biggest open-air music festival of the world.</item>
+        <item>Most famous and elegant ballroom in the world.</item>
+        <item>Start the new year accompanied by the Vienna Philharmonic Orchestra.</item>
+        <item>The biggest charity event in Europe supporting people with HIV or AIDS.</item>
+        <item>Throughout the Advent period, Vienna is a city of nostalgia and romance.</item>
+        <item>Vienna International Dance Festival.</item>
+    </string-array>
+
+    <string-array name="location_event_adresses">
+        <item>1210 Vienna</item>
+        <item>Opernring 2, 1010 Wien</item>
+        <item>Musikvereinsplatz 1, 1010 Wien</item>
+        <item>Friedrich-Schmidt-Platz 1, 1010 Wien</item>
+        <item>multiple locations</item>
+        <item>Neustiftgasse 3, 1070 Wien</item>
+    </string-array>
+
+    <string-array name="location_event_desc">
+        <item>
+            According to numerous media reports the Donauinselfest is Europe\'s biggest open-air event; with over 3 million visitors. Some 1500 volunteer assistants and visible police presence help make the Donauinselfest one of the most secure big events.
+            \n\nThere are some 21 areas (called "islands" as well) that are normally sponsored by radio stations, newspapers and other companies. These are spread out over a 6.5 kilometer area of the total of 21 kilometer island. Musicians of an extremely broad range of genres perform.
+            \n\nThe layout is roughly the same every year, with some stages being removed or added. The musicians also tend to come back every year, or being replaced by other ones that are popular.
+            \n\nTo ensure safety of visitors, "house rules" were introduced in 2007 and checkpoint controls established to help control certain items (such as glass and liquor inside the festival perimeter.
+            \n\nFood kiosks serve various national and alternative dishes including Thai, Greek, Italian, Indian, Turkish, Vegetarian and Austrian cuisine. Although all concerts are free, financial experts calculate Vienna\'s economy benefits from this event by almost € 40 million, due to the increased tourism.
+        </item>
+        <item>
+            Once a year, Wiener Staatsoper turns into the world’s most beautiful and elegant ball room for the Vienna Opera Ball: a glamorous gala of unique splendour and allure, the ball of all balls, much-copied around the world.
+            \n\nWhere opera and ballet performances capture the audience only a few days before and after the Opera Ball, some 5000 visitors party away and dance into the small hours of the morning – international celebrities from the world of culture, business, politics, academia and sports make the ball a high-key social event.
+            \n\nOpera and ballet stars, the orchestra of Wiener Staatsoper and the Vienna State Ballet all contribute to the glamorous opening, and many millions of spectators will be watching on their screens how the 150 young couples forming the young ladies and young men’s committee make their dream come true and dance the first polonaise on this unique ballroom floor. After that, it’s Alles Walzer or “Let the waltz begin!“
+            \n\nMusic and dance all over the opera building, sumptious floral decorations, ladies in elaborate gowns, gentlemen in elegant tailcoats, celebrating with friends, and unexpected encounters make the Vienna Opera Ball an unforgettable event each year!
+        </item>
+        <item>
+            It has long been a Philharmonic tradition at the New Year to present a program consisting of the lively and at the same time nostalgic music from the vast repertoire of the family of Johann Strauss and its contemporaries.
+            \n\nThese concerts not only delight the audiences in the Musikverein in Vienna, but also enjoy great international popularity through the worldwide television broadcast, which now reaches over 90 countries.
+        </item>
+        <item>
+            A glamorous party will be celebrated under the banner of solidarity, tolerance and enlightenment during the AIDS charity event on 10 June. We can look forward to a large number of celebrities at the Life Ball again this year. A benefit concert with a host of opera greats will be held in the Burgtheater beforehand.
+            \n\nThe Life Ball is one of the biggest AIDS charity events in the world. The party on 10 June in and in front of Vienna City Hall promises to be flashy, colorful and loud, in order to generate donations for AIDS relief projects and to promote public awareness of HIV and AIDS.
+            \n\nThis year\'s slogan of the Life Ball is "Recognize the Danger”, because more than 50 percent of all new infections are passed on by people who don\'t know they are carrying the virus.
+        </item>
+        <item>
+            From the middle of November until Christmas, Vienna\'s prettiest squares transform into magical Christmas markets. The aroma of Christmas baking and hot punch sets the mood in the run-up to Christmas.
+            \n\nA tall arched gateway with candles receives visitors at the entrance to City Hall Square for the Vienna Christmas World at the Christmas Market. The 150 or sales booths at the traditional Christmas Market offer Christmas gifts, Christmas tree decorations, handicrafts, culinary treats, confectionery and warming drinks. The trees in City Hall park and along the Ringstrasse boulevard radiate a festive glow. Visitors can skate through the park over two large ice rinks and along numerous paths. They can also go curling next to the 4,000 m² ice rink.
+            \n\nNot far from here is the Christmas Village on Maria-Theresien-Platz, between the Kunsthistorisches Museum Vienna and the Naturhistorisches Museum Vienna. Over 70 booths offering traditional handicrafts and original gift ideas are set up here during Advent.
+            \n\nThe romantic Christmas Village in the Altes AKH is also a popular meeting place in the run-up to Christmas, especially for a younger crowd from the neighboring university campus. With a children\'s railway and an old-fashioned carousel, the Christmas Village in the Altes AKH is also a big hit with families. Two curling lanes are also available.
+            \n\nThe Old Viennese Christmas Market on Freyung in the city center is committed to tradition. A Christmas market was held here as early as 1772; today, it is a place to buy handicrafts, glass decorations, traditional mangers and ceramics. Festive Advent music can be heard on the square from 4.00 pm. Top-quality handicrafts can also be purchased a couple of steps further along at the Am Hof Advent Market. New for this year is a champagne bar.
+            \n\nThe cultural and Christmas market in front of Schönbrunn Palace offers romance in front of an imperial backdrop, and is converted into a New Year\'s market after Christmas. The atmospheric market offers traditional handicrafts, hand-made Christmas decorations, Christmas concerts and an extensive children\'s program, including Christmas workshop. The Christmas Village at Belvedere Palace enjoys an impressive Baroque background.
+            \n\nArt Advent on Karlsplatz offers a diverse children\'s program and above all handicrafts to buy. Further variety is provided by art installations, show workshops and live bands. All of the food on offer is organically certified. There are also numerous stalls full of artisans\' wares in the idyllic tiny alleyways at the Christmas Market on Spittelberg and numerous other vendors with unique culinary gift ideas.
+            \n\nEntertainment is the word at the Winter Market on Riesenradplatz under the slogan "The Prater rocks". There are children\'s adventure rides, musical live acts from Gospel to Soul and Pop and a humorous show program here until 7 January.
+            \n\nThe Christmas Market on Stephansplatz focuses on contemplation and tradition, with around 40 booths at the foot of St. Stephen\'s Cathedral offering high-quality products from Austria. The K.u.K. (Imperial and Royal) Christmas Market on Michaelerplatz in front of the Imperial Palace mainly presents products of Austrian manufacturers, sweet treats, pewter figures, hand-made cribs and much more in its white huts.
+        </item>
+        <item>
+            ImPulsTanz, that’s performances, workshops, research projects and soçial – the nightly party programme.
+            \n\nFounded in 1984, ImPulsTanz has become one of the most distinguished festivals for contemporary dance worldwide. Thousands of professional dancers, choreographers, teachers and dance aficionados from all over the world encounter each other here, inspire each other, investigate together, exchange and turn Vienna each summer into the epicentre of contemporary dance and performance art.
+            \n\nMore than 100.000 people visit the festival each year, the biggest of its kind in Europe.
+        </item>
+    </string-array>
+</resources>

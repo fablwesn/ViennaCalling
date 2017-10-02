@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+
+    ListView inside the ViewPager of the Categories Activity, more page - landscape variation
+-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+
+    <!-- Container for the map and the button -->
+    <FrameLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:paddingEnd="@dimen/space_small_dp"
+        android:paddingRight="@dimen/space_small_dp">
+
+        <!-- map view displaying vienna -->
+        <com.google.android.gms.maps.MapView
+            android:id="@id/categories_map_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <!--view used for the listener to have a bigger trigger-area, zooms and centers to vienna on click -->
+        <View
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_gravity="top|start" />
+
+        <!-- image view indicating a button -->
+        <ImageView
+            android:id="@id/categories_image_home_map_clickable"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_gravity="top|start"
+            android:layout_margin="@dimen/space_medium_dp"
+            android:background="@drawable/drawable_border_buttons"
+            android:src="@drawable/vector_home_black_24dp"
+            android:tint="@color/colorPrimaryLight" />
+    </FrameLayout>
+
+    <!-- contains the expandable list view -->
+    <ScrollView
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:fillViewport="true">
+
+        <!-- ExpandableListView for more info -->
+        <ExpandableListView
+            android:id="@id/categories_expand_list_parent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </ScrollView>
+</LinearLayout>

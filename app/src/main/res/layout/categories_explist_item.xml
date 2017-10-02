@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+
+    Layout for the group items of the expandable list view inside the more tab of the categories activity
+-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@android:color/white"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@id/categories_expand_list_child_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="@dimen/space_medium_dp"
+        android:paddingEnd="@dimen/space_medium_dp"
+        android:paddingLeft="?android:attr/expandableListPreferredChildPaddingLeft"
+        android:paddingRight="@dimen/space_medium_dp"
+        android:paddingStart="?android:attr/expandableListPreferredChildPaddingLeft"
+        android:paddingTop="@dimen/space_medium_dp"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Body1" />
+</LinearLayout>

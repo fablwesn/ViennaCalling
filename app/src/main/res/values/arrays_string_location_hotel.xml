@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+
+    contains all the hotels text displayed
+
+    - Title Text
+    - SubText (next to the rating)
+    - Body Text
+    - Address Text
+    - Detailed Description Text
+-->
+<resources>
+    <string-array name="location_hotel_titles">
+        <item>Park Hyatt</item>
+        <item>Hotel Imperial</item>
+        <item>Palais Coburg Residence</item>
+        <item>Hilton Vienna</item>
+        <item>Arcotel Wimberger</item>
+        <item>Star Inn Hotel</item>
+    </string-array>
+
+    <string-array name="location_hotel_subtext">
+        <item>5-Star Hotel</item>
+        <item>5-Star Hotel</item>
+        <item>5-Star Hotel</item>
+        <item>4-Star Hotel</item>
+        <item>4-Star Hotel</item>
+        <item>3-Star Hotel</item>
+    </string-array>
+
+    <string-array name="location_hotel_bodytext">
+        <item>1900s hotel with a luxe spa, an indoor pool &amp; refined dining.</item>
+        <item>Upscale quarters in a grand, 19th-century hotel.</item>
+        <item>Opulent lodging in a 19th-century palace.</item>
+        <item>Upscale rooms in a refined hotel.</item>
+        <item>Chic colonial hotel with an elegant restaurant.</item>
+        <item>Polished hotel in a contemporary building.</item>
+    </string-array>
+
+    <string-array name="location_hotel_adresses">
+        <item>Am Hof 2, 1010 Wien</item>
+        <item>Kärntner Ring 16, 1015 Wien</item>
+        <item>Coburgbastei 4, 1010 Wien</item>
+        <item>Am Stadtpark 1, 1030 Wien</item>
+        <item>Neubaugürtel 34 &#8211; 36, 1070 Wien</item>
+        <item>Linke Wienzeile 224, 1150 Wien</item>
+    </string-array>
+
+    <string-array name="location_hotel_desc">
+        <item>
+            This lavish hotel in an early 20th-century former bank is a 6-minute walk from Hofburg Imperial Palace and a 7-minute walk from St. Stephen\'s Cathedral.
+            \n\nThe plush rooms and suites mix contemporary with traditional Viennese decor, and feature free Wi-Fi and coffeemakers, along with flat-screen TVs, minibars and designer toiletries. Suites add separate living areas. Room service is available.\n\n
+            Amenities include a palatial restaurant, a ritzy cocktail bar and an elegant, wood-paneled whisky/cigar lounge. The luxe spa has a heated indoor pool and a fitness center, and there\'s also a refined tea room and a business center. Parking is available (fee).
+        </item>
+        <item>
+            In a grand building dating from 1863, this venerable, luxury hotel, with a refined, old-world vibe, is 13 minutes\' walk from Hofburg Palace.
+            \n\nFeaturing chandeliers, antiques and marble bathrooms, the elegant rooms come with TVs and limited free Wi-Fi. Suites add opulent decor, and most offer butler service; some include balconies, whirlpool tubs and complimentary minibars.
+            \n\nThere\'s a sophisticated restaurant, and a posh piano bar featuring classical music and live performances, as well as a casual cafe offering champagne breakfast. Other amenities include a gym and parking (fee).
+        </item>
+        <item>
+            This opulent all-suite hotel in a 19th-century palace is 6 minutes\' walk from the medieval St. Stephen\'s Cathedral and an 11-minute walk from the Vienna State Opera.
+            \n\nElegant suites with garden or cathedral views feature kitchenettes, antique furnishings, free Wi-Fi and flat-screen TVs. Some suites offer separate living spaces, rooftop terraces, whirlpool tubs and/or saunas. Upgraded suites have 2 levels. Room service is available.
+            \n\nBreakfast is complimentary. There\'s a chic fine-dining restaurant and a glass-enclosed eatery with a terrace. Other amenities include a wine bar, 6 wine cellars and a luxe spa with an indoor pool and a hot tub.
+        </item>
+        <item>
+            This polished hotel is a 1-minute walk from an S-Bahn station, an 11-minute stroll from St. Stephen\'s Cathedral and 1.1 km from the Musikverein Wien concert hall.
+            \n\nThe upscale rooms come with Wi-Fi (fee), flat-screens, minibars, coffeemakers and desks. Some rooms have city or cathedral views. Executive rooms add access to a private lounge serving breakfast and drinks at no cost. Suites add living areas; some feature balconies and kitchens. Room service is available.
+            \n\nThe hotel offers a chic European restaurant and a modern bar. Other amenities include a fitness room, a sauna and a steam room, plus a business center and 17 event rooms.
+        </item>
+        <item>
+            A 6-minute walk from both Wien Westbahnhof train station and Wiener Stadthalle event center, this refined brick and glass hotel dating from 1871 is 2.6 km from Hofberg Imperial Palace.
+            \n\nThe relaxed rooms feature free Wi-Fi, flat-screens and minibars. Suites add separate living areas and upgraded suites have city views. Room service is available.
+            \n\nAmenities include an upscale Viennese restaurant serving a breakfast buffet, weekly jazz buffet (fees), and a vegan menu. There\'s a colonial-style bar, and a spa with saunas, whirlpools and a gym. A business center is available, and there are meeting rooms and conference facilities for up to 970 people.
+        </item>
+        <item>
+            This casual hotel is a minute\'s walk from an U-bahn station, 1.8 km from the baroque Schönbrunn Palace and 3.2 km from downtown Vienna.
+            \n\nThe unfussy rooms are decorated with classic wood furnishings, and come with desks, complimentary Wi-Fi, flat-screen TVs and minifridges. Upgraded rooms feature leather sofas; suites add separate living areas. Kids 10 and under stay free with an adult.
+            \n\nThere\'s an informal 24-hour lobby bar. A breakfast buffet and parking are available for extra fees.
+        </item>
+    </string-array>
+</resources>

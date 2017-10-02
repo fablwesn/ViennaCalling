@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+
+    Last Page of the app - landscape variation with removed header image.
+    Contains details of the ListViewItem clicked and a home button for up navigation
+-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.fablwesn.www.viennacalling.DetailActivity">
+
+    <!-- custom tab parent -->
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <!-- title text view inside tab -->
+        <TextView
+            android:id="@id/detail_title_text"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/tab_height"
+            android:background="@color/colorPrimary"
+            android:gravity="center"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.SearchResult.Subtitle"
+            android:textColor="@android:color/white" />
+
+        <!-- home button returning to the main activity -->
+        <ImageView
+            android:id="@id/detail_home_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top|start"
+            android:layout_margin="@dimen/detail_home_icon_margin"
+            android:background="@drawable/drawable_border_buttons"
+            android:src="@drawable/vector_home_black_24dp"
+            android:tint="@color/colorPrimaryLight" />
+    </FrameLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <!-- parent of the left side  -->
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <!-- parent of the image switcher and its buttons -->
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/space_large_dp"
+                android:layout_marginTop="@dimen/space_large_dp">
+
+                <!-- location images to browse through -->
+                <ImageSwitcher
+                    android:id="@id/detail_image_switcher"
+                    android:layout_width="@dimen/detail_image_size"
+                    android:layout_height="@dimen/detail_image_size"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginBottom="@dimen/space_small_dp"
+                    android:layout_marginEnd="@dimen/space_medium_dp"
+                    android:layout_marginLeft="@dimen/space_medium_dp"
+                    android:layout_marginRight="@dimen/space_medium_dp"
+                    android:layout_marginStart="@dimen/space_medium_dp"
+                    android:layout_marginTop="@dimen/space_large_dp"
+                    android:background="@color/colorPrimaryLight"
+                    android:padding="@dimen/space_small_dp" />
+
+                <!-- button for previous image -->
+                <ImageView
+                    android:id="@id/detail_prev_image"
+                    android:layout_width="@dimen/detail_navigate_icon_size"
+                    android:layout_height="@dimen/detail_navigate_icon_size"
+                    android:layout_alignLeft="@id/detail_image_switcher"
+                    android:layout_alignStart="@id/detail_image_switcher"
+                    android:layout_below="@id/detail_image_switcher"
+                    android:layout_marginEnd="@dimen/space_medium_dp"
+                    android:layout_marginLeft="@dimen/space_medium_dp"
+                    android:layout_marginRight="@dimen/space_medium_dp"
+                    android:layout_marginStart="@dimen/space_medium_dp"
+                    android:src="@drawable/vector_keyboard_arrow_left_black_24dp"
+                    android:tint="@color/colorPrimaryLight" />
+
+                <!-- button for next image -->
+                <ImageView
+                    android:id="@id/detail_next_image"
+                    android:layout_width="@dimen/detail_navigate_icon_size"
+                    android:layout_height="@dimen/detail_navigate_icon_size"
+                    android:layout_alignEnd="@id/detail_image_switcher"
+                    android:layout_alignRight="@id/detail_image_switcher"
+                    android:layout_below="@id/detail_image_switcher"
+                    android:layout_marginEnd="@dimen/space_medium_dp"
+                    android:layout_marginLeft="@dimen/space_medium_dp"
+                    android:layout_marginRight="@dimen/space_medium_dp"
+                    android:layout_marginStart="@dimen/space_medium_dp"
+                    android:src="@drawable/vector_keyboard_arrow_right_black_24dp"
+                    android:tint="@color/colorPrimaryLight" />
+            </RelativeLayout>
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fillViewport="true"
+                android:padding="@dimen/space_medium_dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <!-- short description text -->
+                    <TextView
+                        android:id="@id/detail_short_descr"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="@dimen/space_large_dp"
+                        android:layout_marginLeft="@dimen/space_large_dp"
+                        android:layout_marginRight="@dimen/space_large_dp"
+                        android:layout_marginStart="@dimen/space_large_dp"
+                        android:layout_marginTop="@dimen/space_large_dp"
+                        android:gravity="center"
+                        android:text="Short description of location"
+                        android:textAppearance="?android:textAppearanceSmall" />
+
+                    <!-- divider -->
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:layout_marginBottom="@dimen/space_medium_dp"
+                        android:layout_marginEnd="@dimen/space_large_dp"
+                        android:layout_marginLeft="@dimen/space_large_dp"
+                        android:layout_marginRight="@dimen/space_large_dp"
+                        android:layout_marginStart="@dimen/space_large_dp"
+                        android:layout_marginTop="@dimen/space_medium_dp"
+                        android:background="@android:color/darker_gray" />
+
+                    <!-- location address -->
+                    <TextView
+                        android:id="@id/detail_address"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="@dimen/space_large_dp"
+                        android:layout_marginLeft="@dimen/space_large_dp"
+                        android:layout_marginRight="@dimen/space_large_dp"
+                        android:layout_marginStart="@dimen/space_large_dp"
+                        android:gravity="center"
+                        android:text="Neubaugürtel 14-16, 1070"
+                        android:textAppearance="?android:textAppearanceSmall" />
+
+                    <!-- divider -->
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:layout_marginBottom="@dimen/space_medium_dp"
+                        android:layout_marginEnd="@dimen/space_large_dp"
+                        android:layout_marginLeft="@dimen/space_large_dp"
+                        android:layout_marginRight="@dimen/space_large_dp"
+                        android:layout_marginStart="@dimen/space_large_dp"
+                        android:layout_marginTop="@dimen/space_medium_dp"
+                        android:background="@android:color/darker_gray" />
+
+                    <!-- ratingbar -->
+                    <RatingBar
+                        android:id="@id/detail_rating_bar"
+                        style="@style/Base.Widget.AppCompat.RatingBar.Small"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginEnd="@dimen/space_medium_dp"
+                        android:layout_marginLeft="@dimen/space_medium_dp"
+                        android:layout_marginRight="@dimen/space_medium_dp"
+                        android:layout_marginStart="@dimen/space_medium_dp"
+                        android:isIndicator="false"
+                        android:numStars="5"
+                        android:stepSize="0.5" />
+                </LinearLayout>
+            </ScrollView>
+        </LinearLayout>
+
+        <!-- divider -->
+        <View
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="@dimen/space_medium_dp"
+            android:layout_marginTop="@dimen/space_medium_dp"
+            android:background="@color/colorPrimaryLight" />
+
+        <!-- parent of the right side  -->
+        <ScrollView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2.5"
+            android:fillViewport="true"
+            android:padding="@dimen/space_large_dp">
+
+            <!-- location text -->
+            <TextView
+                android:id="@id/detail_body_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </ScrollView>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,44 @@
+<resources>
+    <!-- Title for the application. [CHAR LIMIT=12] -->
+    <string name="app_name">Vienna Calling</string>
+
+    <!-- Activity Labels -->
+    <string name="title_activity_categories">Chose Interest</string>
+    <string name="title_activity_detail">Learn more</string>
+
+    <!--
+        headlines shown in activity_main
+     -->
+    <!-- Home Screen - Header -->
+    <string name="headline_home_header">vienna</string>
+    <!-- Home Screen - Hotels Button -->
+    <string name="headline_home_hotels">hotels</string>
+    <!-- Home Screen - Events Button -->
+    <string name="headline_home_events">events</string>
+    <!-- Home Screen - Sightseeing Button -->
+    <string name="headline_home_sightseeing">sightseeing</string>
+    <!-- Home Screen - Nightlife Button -->
+    <string name="headline_home_nightlife">nightlife</string>
+    <!-- Home Screen - More Button -->
+    <string name="headline_home_more">more info</string>
+
+    <!--
+        Tab Titles shown in activity_categories
+     -->
+    <!-- Category Screen - Hotels Tab -->
+    <string name="label_category_tab_hotel">Hotels</string>
+    <!-- Category Screen - Events Tab -->
+    <string name="label_category_tab_event">Events</string>
+    <!-- Category Screen - Sightseeing Tab -->
+    <string name="label_category_tab_sightseeing">Sights</string>
+    <!-- Category Screen - Nightlife Tab -->
+    <string name="label_category_tab_nightlife">Nightlife</string>
+    <!-- Category Screen - More Info Tab -->
+    <string name="label_category_tab_more">More</string>
+
+
+    <!-- MapMarker Title -->
+    <string name="categories_map_title">Vienna</string>
+    <!-- MapMarker Snippet -->
+    <string name="categories_map_snippet">Capital City of Austria</string>
+</resources>

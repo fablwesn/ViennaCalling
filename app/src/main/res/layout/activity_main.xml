@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+
+    Start Page of the app.
+    Displays one image at the top for decoration and 5 clickable views below
+    which lead to the corresponding tab inside the categories activity
+-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.fablwesn.www.viennacalling.MainActivity">
+
+    <!-- Header -->
+    <include layout="@layout/included_layout_header" />
+
+    <!-- Hotels Banner -->
+    <RelativeLayout
+        android:id="@id/main_rel_lay_home_hotels"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginBottom="@dimen/space_small_dp"
+        android:layout_marginTop="@dimen/space_medium_dp"
+        android:layout_weight="1">
+
+        <!-- Background image with tint -->
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="centerCrop"
+            android:src="@drawable/img_home_hotels"
+            android:tint="@color/colorRipple" />
+
+        <!-- label -->
+        <TextView
+            style="@style/MainTextHeadline"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:paddingBottom="@dimen/space_small_dp"
+            android:paddingTop="@dimen/space_small_dp"
+            android:text="@string/headline_home_hotels" />
+
+    </RelativeLayout>
+
+    <!-- Events Banner -->
+    <RelativeLayout
+        android:id="@id/main_rel_lay_home_events"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginBottom="@dimen/space_small_dp"
+        android:layout_marginTop="@dimen/space_small_dp"
+        android:layout_weight="1">
+
+        <!-- Background image with tint -->
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="centerCrop"
+            android:src="@drawable/img_home_events"
+            android:tint="@color/colorRipple" />
+
+        <!-- label -->
+        <TextView
+            style="@style/MainTextHeadline"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:paddingBottom="@dimen/space_small_dp"
+            android:paddingTop="@dimen/space_small_dp"
+            android:text="@string/headline_home_events" />
+
+    </RelativeLayout>
+
+    <!-- Sightseeing Banner -->
+    <RelativeLayout
+        android:id="@id/main_rel_lay_home_sightseeing"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginBottom="@dimen/space_small_dp"
+        android:layout_marginTop="@dimen/space_small_dp"
+        android:layout_weight="1">
+
+        <!-- Background image with tint -->
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="centerCrop"
+            android:src="@drawable/img_home_sightseeing"
+            android:tint="@color/colorRipple" />
+
+        <!-- label -->
+        <TextView
+            style="@style/MainTextHeadline"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:paddingBottom="@dimen/space_small_dp"
+            android:paddingTop="@dimen/space_small_dp"
+            android:text="@string/headline_home_sightseeing" />
+
+    </RelativeLayout>
+
+    <!-- Nightlife Banner -->
+    <RelativeLayout
+        android:id="@id/main_rel_lay_home_nightlife"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginBottom="@dimen/space_small_dp"
+        android:layout_marginTop="@dimen/space_small_dp"
+        android:layout_weight="1">
+
+        <!-- Background image with tint -->
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:scaleType="centerCrop"
+            android:src="@drawable/img_home_nightlife"
+            android:tint="@color/colorRipple" />
+
+        <!-- label -->
+        <TextView
+            style="@style/MainTextHeadline"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerInParent="true"
+            android:paddingBottom="@dimen/space_small_dp"
+            android:paddingTop="@dimen/space_small_dp"
+            android:text="@string/headline_home_nightlife" />
+
+    </RelativeLayout>
+
+    <!-- More Info Banner -->
+    <RelativeLayout
+        android:id="@id/main_rel_lay_home_more"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginBottom="@dimen/space_small_dp"
+        android:layout_marginTop="@dimen/space_small_dp"
+        android:layout_weight="1">
+
+        <!-- Background image with tint -->
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="centerCrop"
+            android:src="@drawable/img_home_more"
+            android:tint="@color/colorRipple" />
+
+        <!-- label -->
+        <TextView
+            style="@style/MainTextHeadline"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:paddingBottom="@dimen/space_medium_dp"
+            android:paddingTop="@dimen/space_small_dp"
+            android:text="@string/headline_home_more" />
+
+    </RelativeLayout>
+
+</LinearLayout>

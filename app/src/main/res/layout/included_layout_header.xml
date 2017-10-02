@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+
+    Header displayed on each (portrait version) activity
+-->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/header_image_height">
+
+    <!-- Background image -->
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/header_image_height"
+        android:adjustViewBounds="true"
+        android:scaleType="centerCrop"
+        android:src="@drawable/img_home_header" />
+
+    <!-- Used for alignment, chose View instead of space to adjust the background properly -->
+    <View
+        android:id="@id/view_header_alignment"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/space_medium_dp"
+        android:layout_centerVertical="true"
+        android:background="@color/colorRipple" />
+
+    <!-- Text background -->
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/view_header_alignment"
+        android:background="@color/colorRipple"
+        android:paddingBottom="@dimen/space_medium_dp">
+
+        <!-- Text -->
+        <TextView
+            style="@style/MainTextHeadlineLarge"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/headline_home_header" />
+
+    </FrameLayout>
+</RelativeLayout>

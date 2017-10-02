@@ -1,0 +1,11 @@
+<!-- ListView inside the ViewPager of the Categories Activity, first 4 categories -->
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ListView
+        android:id="@id/categories_listview_parent"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+</FrameLayout>
+
