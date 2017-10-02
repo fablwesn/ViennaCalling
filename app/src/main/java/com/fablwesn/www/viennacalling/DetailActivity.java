@@ -37,18 +37,18 @@ public class DetailActivity extends Activity {
 
         //use default font Roboto in case the custom one isn't found
         CalligraphyConfig.initDefault(new CalligraphyConfig.Builder()
-                .setDefaultFontPath("fonts/Roboto-RobotoRegular.ttf")
+                .setDefaultFontPath(getResources().getString(R.string.custom_font_path))
                 .setFontAttrId(R.attr.fontPath)
                 .build()
         );
 
         //get info of opened location
         Intent intent = getIntent();
-        final String title = intent.getStringExtra("detailTitle");
-        String description = intent.getStringExtra("detailDescription");
-        String address = intent.getStringExtra("detailAddress");
-        String details = intent.getStringExtra("detailInfo");
-        final int[] switcherIds = intent.getIntArrayExtra("detailSwitcher");
+        final String title = intent.getStringExtra(getResources().getString(R.string.detail_title));
+        String description = intent.getStringExtra(getResources().getString(R.string.detail_desc));
+        String address = intent.getStringExtra(getResources().getString(R.string.detail_address));
+        String details = intent.getStringExtra(getResources().getString(R.string.detail_info));
+        final int[] switcherIds = intent.getIntArrayExtra(getResources().getString(R.string.detail_switcher));
 
         //look if the user has already rated the location, if so set the rating bar appropriately
         //also set a listener to save any ratings made by the user

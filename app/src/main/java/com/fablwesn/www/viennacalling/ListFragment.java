@@ -141,11 +141,11 @@ public class ListFragment extends Fragment {
 
                 //open next activity and store the name of the location to be displayed
                 Intent detailIntent = new Intent(getContext(), DetailActivity.class);
-                detailIntent.putExtra("detailTitle", location.getTitleText());
-                detailIntent.putExtra("detailSwitcher", imageIdsSwitcher);
-                detailIntent.putExtra("detailDescription", location.getBodyText());
-                detailIntent.putExtra("detailAddress", location.getAddressText());
-                detailIntent.putExtra("detailInfo", location.getDetailText());
+                detailIntent.putExtra(getResources().getString(R.string.detail_title), location.getTitleText());
+                detailIntent.putExtra(getResources().getString(R.string.detail_switcher), imageIdsSwitcher);
+                detailIntent.putExtra(getResources().getString(R.string.detail_desc), location.getBodyText());
+                detailIntent.putExtra(getResources().getString(R.string.detail_address), location.getAddressText());
+                detailIntent.putExtra(getResources().getString(R.string.detail_info), location.getDetailText());
                 startActivity(detailIntent);
             }
         });

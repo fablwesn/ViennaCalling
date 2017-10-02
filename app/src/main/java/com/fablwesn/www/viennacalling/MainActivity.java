@@ -33,7 +33,7 @@ public class MainActivity extends AppCompatActivity {
 
         //use default font Roboto in case the custom one isn't found
         CalligraphyConfig.initDefault(new CalligraphyConfig.Builder()
-                .setDefaultFontPath("fonts/Roboto-RobotoRegular.ttf")
+                .setDefaultFontPath(getResources().getString(R.string.custom_font_path))
                 .setFontAttrId(R.attr.fontPath)
                 .build()
         );
@@ -71,7 +71,7 @@ public class MainActivity extends AppCompatActivity {
 
                 //save tab number to display before starting the new activity
                 Intent categoryIntent = new Intent(MainActivity.this, CategoriesActivity.class);
-                categoryIntent.putExtra("tabToShow", tabIndex);
+                categoryIntent.putExtra(getResources().getString(R.string.tab_to_show_key_name), tabIndex);
                 startActivity(categoryIntent, bundle);
             }
         });

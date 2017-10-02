@@ -25,7 +25,7 @@ public class CategoriesActivity extends AppCompatActivity {
 
         //use default font Roboto in case the custom one isn't found
         CalligraphyConfig.initDefault(new CalligraphyConfig.Builder()
-                .setDefaultFontPath("fonts/Roboto-RobotoRegular.ttf")
+                .setDefaultFontPath(getResources().getString(R.string.custom_font_path))
                 .setFontAttrId(R.attr.fontPath)
                 .build()
         );
@@ -39,7 +39,7 @@ public class CategoriesActivity extends AppCompatActivity {
 
         //get which tab to show, depending on the button pressed inside the previous activity
         final Intent intent = getIntent();
-        int page = intent.getIntExtra("tabToShow", 0);
+        int page = intent.getIntExtra(getResources().getString(R.string.tab_to_show_key_name), 0);
         //display the required tab
         viewPager.setCurrentItem(page);
 

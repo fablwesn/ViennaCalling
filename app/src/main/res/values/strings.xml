@@ -1,4 +1,15 @@
 <resources>
+
+    <!-- DO NOT TRANSLATE -->
+    <string name="custom_font_path">fonts/Roboto-RobotoRegular.ttf</string>
+    <string name="tab_to_show_key_name">tabToShow</string>
+    <string name="detail_title">detailTitle</string>
+    <string name="detail_desc">detailDescription</string>
+    <string name="detail_address">detailAddress</string>
+    <string name="detail_info">detailInfo</string>
+    <string name="detail_switcher">detailSwitcher</string>
+    <string name="exp_list_section">sectionNumber</string>
+
     <!-- Title for the application. [CHAR LIMIT=12] -->
     <string name="app_name">Vienna Calling</string>
 
