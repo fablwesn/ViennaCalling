@@ -10,76 +10,48 @@
 -->
 <resources>
     <string-array name="location_sight_titles">
-        <item>Schönbrunn Palace</item>
-        <item>St. Stephen\'s Cathedral</item>
-        <item>Tiergarten Schönbrunn</item>
-        <item>Prater</item>
-        <item>Natural History Museum</item>
-        <item>House of the Sea</item>
+        <item>@string/location_item_sights_titles_00</item>
+        <item>@string/location_item_sights_titles_01</item>
+        <item>@string/location_item_sights_titles_02</item>
+        <item>@string/location_item_sights_titles_03</item>
+        <item>@string/location_item_sights_titles_04</item>
+        <item>@string/location_item_sights_titles_05</item>
     </string-array>
 
     <string-array name="location_sight_subtext">
-        <item>UNESCO World Heritage Site</item>
-        <item>Completed	1160</item>
-        <item>Pandas!</item>
-        <item>Since 1766</item>
-        <item>display cover 8,700 square metres</item>
-        <item>WW2 Flak-Tower</item>
+        <item>@string/location_item_sights_sub_00</item>
+        <item>@string/location_item_sights_sub_01</item>
+        <item>@string/location_item_sights_sub_02</item>
+        <item>@string/location_item_sights_sub_03</item>
+        <item>@string/location_item_sights_sub_04</item>
+        <item>@string/location_item_sights_sub_05</item>
     </string-array>
 
     <string-array name="location_sight_bodytext">
-        <item>Baroque palace with opulent interiors.</item>
-        <item>Medieval place of worship &amp; city icon.</item>
-        <item>World\'s oldest zoo.</item>
-        <item>Vienna International Dance Festival.</item>
-        <item>19th-century natural history museum.</item>
-        <item>Over ten thousand aquatic beings - sharks and piranhas included!</item>
+        <item>@string/location_item_sights_body_00</item>
+        <item>@string/location_item_sights_body_01</item>
+        <item>@string/location_item_sights_body_02</item>
+        <item>@string/location_item_sights_body_03</item>
+        <item>@string/location_item_sights_body_04</item>
+        <item>@string/location_item_sights_body_05</item>
     </string-array>
 
     <string-array name="location_sight_adresses">
-        <item>Schönbrunner Schloßstraße 47, 1130 Wien</item>
-        <item>Stephansplatz 3, 1010 Wien</item>
-        <item>Maxingstraße 13b, 1130 Wien</item>
-        <item>Prater 7/3, A-1020 Vienna</item>
-        <item>Burgring 7, 1010 Wien</item>
-        <item>Fritz-Grünbaum-Platz 1</item>
+        <item>@string/location_item_sights_address_00</item>
+        <item>@string/location_item_sights_address_01</item>
+        <item>@string/location_item_sights_address_02</item>
+        <item>@string/location_item_sights_address_03</item>
+        <item>@string/location_item_sights_address_04</item>
+        <item>@string/location_item_sights_address_05</item>
     </string-array>
 
     <string-array name="location_sight_desc">
-        <item>
-            At the end of the seventeenth century Emperor Leopold I commissioned the Baroque architect Johann Bernhard Fischer von Erlach, who had received his training in Rome, to design an imperial hunting lodge for his son, Crown Prince Joseph, later to become Emperor Joseph I.
-            \n\nReplacing the château de plaisance built on this site for the dowager empress Eleonora of Gonzaga in 1642, it was to grow into a palatial imperial residence over the course of the eighteenth century.
-        </item>
-        <item>
-            St. Stephen\'s Cathedral (more commonly known by its German title: Stephansdom) is the mother church of the Roman Catholic Archdiocese of Vienna and the seat of the Archbishop of Vienna, Christoph Cardinal Schönborn, OP.
-            \n\nThe current Romanesque and Gothic form of the cathedral, seen today in the Stephansplatz, was largely initiated by Duke Rudolf IV (1339–1365) and stands on the ruins of two earlier churches, the first a parish church consecrated in 1147.
-            \n\nThe most important religious building in Vienna, St. Stephen\'s Cathedral has borne witness to many important events in Habsburg and Austrian history and has, with its multi-coloured tile roof, become one of the city\'s most recognizable symbols
-        </item>
-        <item>
-            Tiergarten Schönbrunn (literally, "Schönbrunn Zoo"), or "Vienna Zoo", is a zoo located on the grounds of the famous Schönbrunn Palace in Vienna, Austria.
-            \n\nFounded as an imperial menagerie in 1752, it is the oldest zoo in the Western world [Moctezuma\'s amazing aviary, zoo and botanical gardens in the Aztec capital of Tenochtitlan (Mexico City), was described by Spanish conquistadors, who first saw it in 1519].
-            \n\nToday, Tiergarten Schönbrunn is considered and regards itself as a scientifically administered zoo which sees its main purpose as a centre for species conservation and general nature conservation as well as in the fulfillment of the education mandate given to it by the legislation.
-            \n\nThe still preserved buildings of the baroque era, which have been complemented in the last years by elements of modern zoo architecture, still convey a good impression of the 18th century menagerie-buildings after the Versailles model.
-        </item>
-        <item>
-            The Wiener Prater is a large public park in Vienna\'s 2nd district (Leopoldstadt). If people talk about the Wiener Prater they often mean the "Würstelprater".
-            \n\nThe so called "Wurstelprater" is the oldest amusement park in the world. But the Wiener Prater consists of more: the Hauptallee (the main alley), the Krieau and the Praterstadium (Ernst Happel Stadium) belong to the area of the "Wiener Prater".
-            \n\nThe Prater was firstly mentioned in a document in 1162 under the reign of emperor Friedrich I. In 1766 emperor Josef the II. donated the area to the people of Vienna. From this point on the Prater was accessible for everyone. Following to that bowling alleys, cinemas, Cafés and merry-go-rounds were created.
-            \n\nStill the "Wiener Prater" and the "Würstelprater" are open 24 hours each day - 7 days a week. Entrance is free of charge. Attractions, restaurant businesses, arcade shops and other leisure facilities are all part of the Wurstelprater.
-        </item>
-        <item>
-            As of 2011, the museum houses approximately 30 million objects and the number is growing.
-            \n\nBehind the scenes, collections comprising some 25 million specimens and artefacts are the essential basis for the work of over 60 staff scientists.
-            \n\nTheir main fields of research cover a wide range of topics from the origins of the Solar System and the evolution of animals and plants to human evolution, as well as prehistoric traditions and customs.
-        </item>
-        <item>
-            The flak towers were giant concrete blockhouses with walls 3.5m thick, built to house air defences to counter bombing raids by the allied forces. Too bigtto easily demolish, the flak tower in Esterhazy Park now houses the Haus des Meeres, a large aquarium and vivarium with five floors of visitor displays.
-            \n\nIt’s an excellent way to kill an hour or two in wet weather, particularly if you have kids. Since it’s located just off one of Vienna’s major shopping streets (Mariahilfer Straße), you can combine a trip with a shopping expedition.
-            \n\nHighlights of the exhibition are:
-            \n\nA multistory tropical house built on to the outside of the flak tower, with wooden walkways and rope bridges, small waterfalls, ponds and tropical vegetation. Various water tanks house fish and turtles. And numerous tropical birds and marmosets move freely among the visitors. The animals aren’t shy, so you’ll get some close encounters.
-            \n\nA vivarium with snakes, lizards, frogs, giant spiders and crocodiles. When I was there, the most impressive exhibit was the albino python and its friend, which were BIG. There’s also a Chinese giant salamander, which is quite stunning when you’re used to the typical salamanders you get in your garden pond. They don’t call it giant for nothing.
-            \n\nThe shark aquarium on the ground floor. The sharks are reef sharks, so not the dangerous or large variety, but impressive nonetheless. See if you can spot the well-camouflaged carpet shark.
-            \n\nThe rest of the tower is filled with tropical, Mediterranean and local fish, sea anemones, urchins, lobsters, starfish and other non-fish denizens of the water.
-        </item>
+        <item>@string/location_item_sights_desc_00</item>
+        <item>@string/location_item_sights_desc_01</item>
+        <item>@string/location_item_sights_desc_02</item>
+        <item>@string/location_item_sights_desc_03</item>
+        <item>@string/location_item_sights_desc_04</item>
+        <item>@string/location_item_sights_desc_05</item>
     </string-array>
+
 </resources>

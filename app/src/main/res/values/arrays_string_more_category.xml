@@ -6,76 +6,76 @@
 -->
 <resources>
     <string-array name="more_explist_item_numbers">
-        <item>Emergency Telephone Numbers</item>
-        <item>Fire Service: 122</item>
-        <item>Police: 133</item>
-        <item>Ambulance : 144</item>
-        <item>European emergency: 112</item>
-        <item>ViennaMed doctor\'s hotline for visitors: +43 1 513 95 95</item>
-        <item>Car Breakdown Services: 120 (ÖAMTC) | 123 (ARBÖ)</item>
+        <item>@string/explist_group_title_numbers</item>
+        <item>@string/explist_group_child_numbers00</item>
+        <item>@string/explist_group_child_numbers01</item>
+        <item>@string/explist_group_child_numbers02</item>
+        <item>@string/explist_group_child_numbers03</item>
+        <item>@string/explist_group_child_numbers04</item>
+        <item>@string/explist_group_child_numbers05</item>
     </string-array>
 
     <string-array name="more_explist_item_info">
-        <item>General Information</item>
-        <item>Area: 414 km²</item>
-        <item>Districts: 23</item>
-        <item>Population: 1.7 million</item>
-        <item>Elevation: 171 m</item>
-        <item>Language: German</item>
-        <item>Currency: Euro</item>
-        <item>Time zone: CET (GMT/UCT+1), Daylight saving time from March to October</item>
-        <item>Electricity: typical mains voltage for households is 230 volts (alternating current</item>
+        <item>@string/explist_group_title_info</item>
+        <item>@string/explist_group_child_info00</item>
+        <item>@string/explist_group_child_info01</item>
+        <item>@string/explist_group_child_info02</item>
+        <item>@string/explist_group_child_info03</item>
+        <item>@string/explist_group_child_info04</item>
+        <item>@string/explist_group_child_info05</item>
+        <item>@string/explist_group_child_info06</item>
+        <item>@string/explist_group_child_info07</item>
     </string-array>
 
     <string-array name="more_explist_item_transport">
-        <item>Public Transport</item>
-        <item>Vienna\'s public transport network covers 1.150 km. The five subway lines, 29 tram lines and 127 bus lines bring you quickly and reliably to your destination.</item>
+        <item>@string/explist_group_title_transport</item>
+        <item>@string/explist_group_child_transport00</item>
     </string-array>
 
     <string-array name="more_explist_item_holidays">
-        <item>Public Holidays</item>
-        <item>1st January - New Year</item>
-        <item>6th January - Twelfth Night</item>
-        <item>17th April - Easter Monday</item>
-        <item>1st May - Labor Day</item>
-        <item>25th May - Ascension</item>
-        <item>5th June - Whitmonday</item>
-        <item>15th June - Corpus Christi</item>
-        <item>15th August - Mary Ascension</item>
-        <item>26th October - National Holiday</item>
-        <item>1st November - All Saints\’ Day</item>
-        <item>8th December - Immaculate Conception (stores are open)</item>
-        <item>25th December - Christmas Day</item>
-        <item>26th December - Boxing Day, St. Stephen\’s Day</item>
+        <item>@string/explist_group_title_holidays</item>
+        <item>@string/explist_group_child_holidays00</item>
+        <item>@string/explist_group_child_holidays01</item>
+        <item>@string/explist_group_child_holidays02</item>
+        <item>@string/explist_group_child_holidays03</item>
+        <item>@string/explist_group_child_holidays04</item>
+        <item>@string/explist_group_child_holidays05</item>
+        <item>@string/explist_group_child_holidays06</item>
+        <item>@string/explist_group_child_holidays07</item>
+        <item>@string/explist_group_child_holidays08</item>
+        <item>@string/explist_group_child_holidays09</item>
+        <item>@string/explist_group_child_holidays10</item>
+        <item>@string/explist_group_child_holidays11</item>
+        <item>@string/explist_group_child_holidays12</item>
     </string-array>
 
     <string-array name="more_explist_item_vacations">
-        <item>School Vacations</item>
-        <item>24.12.2017 &#8211; 07.01.2018 - Christmas holidays</item>
-        <item>03.02.2018 &#8211; 11.02.2018 - Semester break</item>
-        <item>24.03.2018 &#8211; 03.04.2018 - Easter holidays</item>
-        <item>19.05.2018 &#8211; 22.05.2018 - Pentecost</item>
-        <item>30.06.2018 &#8211; 02.09.2018 - Summer break</item>
+        <item>@string/explist_group_title_vacations</item>
+        <item>@string/explist_group_child_vacations00</item>
+        <item>@string/explist_group_child_vacations01</item>
+        <item>@string/explist_group_child_vacations02</item>
+        <item>@string/explist_group_child_vacations03</item>
+        <item>@string/explist_group_child_vacations04</item>
     </string-array>
 
     <string-array name="more_explist_item_units">
-        <item>Units of Measure</item>
-        <item>1 gram (g)  =  0.0353 ounces</item>
-        <item>1 kilo(gram) (kg) = 2.204 pounds</item>
-        <item>1 centimeter (cm)  =  0.393 inches</item>
-        <item>1 meter (m)  =  3.281 feet / 1.093 yards</item>
-        <item>1 kilometer (km)  =  0.621 miles</item>
-        <item>&#160;</item>
-        <item>1 ounce (oz) = 28.349 grams</item>
-        <item>1 pound (lb) = 0.453 kilo(grams)</item>
-        <item>1 inch (in) = 2.540 centimeters</item>
-        <item>1 foot (ft) = 0.304 meters</item>
-        <item>1 yard (yd) = 3 feet = 0.914 meters</item>
-        <item>1 mile (mi) = 1760 yards = 1,609 kilometers</item>
-        <item>&#160;</item>
-        <item>1 US pint (pt) = 0.473 liters</item>
-        <item>1 UK pint (pt) = 0.568 liters</item>
-        <item>1 US gallon (gal) = 3.785 liters</item>
-        <item>1 UK gallon (gal) = 4.456 liters</item>
+        <item>@string/explist_group_title_units</item>
+        <item>@string/explist_group_child_units00</item>
+        <item>@string/explist_group_child_units01</item>
+        <item>@string/explist_group_child_units02</item>
+        <item>@string/explist_group_child_units03</item>
+        <item>@string/explist_group_child_units04</item>
+        <item>@string/explist_group_child_units05</item>
+        <item>@string/explist_group_child_units06</item>
+        <item>@string/explist_group_child_units07</item>
+        <item>@string/explist_group_child_units08</item>
+        <item>@string/explist_group_child_units09</item>
+        <item>@string/explist_group_child_units10</item>
+        <item>@string/explist_group_child_units11</item>
+        <item>@string/explist_group_child_units12</item>
+        <item>@string/explist_group_child_units13</item>
+        <item>@string/explist_group_child_units14</item>
+        <item>@string/explist_group_child_units15</item>
+        <item>@string/explist_group_child_units16</item>
     </string-array>
 </resources>

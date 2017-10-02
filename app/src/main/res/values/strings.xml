@@ -41,4 +41,353 @@
     <string name="categories_map_title">Vienna</string>
     <!-- MapMarker Snippet -->
     <string name="categories_map_snippet">Capital City of Austria</string>
+
+    <!--¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯-->
+    <!--
+                                      Location List Strings
+                                      ¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+    -->
+    <!--
+        hotels
+     -->
+    <!-- titles -->
+    <string name="location_item_hotels_titles_00">Park Hyatt</string>
+    <string name="location_item_hotels_titles_01">Hotel Imperial</string>
+    <string name="location_item_hotels_titles_02">Palais Coburg Residence</string>
+    <string name="location_item_hotels_titles_03">Hilton Vienna</string>
+    <string name="location_item_hotels_titles_04">Arcotel Wimberger</string>
+    <string name="location_item_hotels_titles_05">Star Inn Hotel</string>
+
+
+    <!-- subtext -->
+    <string name="location_item_hotels_sub_00">5-Star Hotel</string>
+    <string name="location_item_hotels_sub_01">5-Star Hotel</string>
+    <string name="location_item_hotels_sub_02">5-Star Hotel</string>
+    <string name="location_item_hotels_sub_03">4-Star Hotel</string>
+    <string name="location_item_hotels_sub_04">4-Star Hotel</string>
+    <string name="location_item_hotels_sub_05">3-Star Hotel</string>
+
+
+    <!-- body text -->
+    <string name="location_item_hotels_body_00">1900s hotel with a luxe spa, an indoor pool &amp; refined dining.</string>
+    <string name="location_item_hotels_body_01">Upscale quarters in a grand, 19th-century hotel.</string>
+    <string name="location_item_hotels_body_02">Opulent lodging in a 19th-century palace.</string>
+    <string name="location_item_hotels_body_03">Upscale rooms in a refined hotel.</string>
+    <string name="location_item_hotels_body_04">Chic colonial hotel with an elegant restaurant.</string>
+    <string name="location_item_hotels_body_05">Polished hotel in a contemporary building.</string>
+    <!-- addresses -->
+    <string name="location_item_hotels_address_00">Am Hof 2, 1010 Wien</string>
+    <string name="location_item_hotels_address_01">Kärntner Ring 16, 1015 Wien</string>
+    <string name="location_item_hotels_address_02">Coburgbastei 4, 1010 Wien</string>
+    <string name="location_item_hotels_address_03">Am Stadtpark 1, 1030 Wien</string>
+    <string name="location_item_hotels_address_04">Neubaugürtel 34 &#8211; 36, 1070 Wien</string>
+    <string name="location_item_hotels_address_05">Linke Wienzeile 224, 1150 Wien</string>
+    <!-- subtext -->
+    <string name="location_item_hotels_desc_00">
+            This lavish hotel in an early 20th-century former bank is a 6-minute walk from Hofburg Imperial Palace and a 7-minute walk from St. Stephen\'s Cathedral.
+            \n\nThe plush rooms and suites mix contemporary with traditional Viennese decor, and feature free Wi-Fi and coffeemakers, along with flat-screen TVs, minibars and designer toiletries. Suites add separate living areas. Room service is available.\n\n
+            Amenities include a palatial restaurant, a ritzy cocktail bar and an elegant, wood-paneled whisky/cigar lounge. The luxe spa has a heated indoor pool and a fitness center, and there\'s also a refined tea room and a business center. Parking is available (fee).
+    </string>
+    <string name="location_item_hotels_desc_01">
+            In a grand building dating from 1863, this venerable, luxury hotel, with a refined, old-world vibe, is 13 minutes\' walk from Hofburg Palace.
+            \n\nFeaturing chandeliers, antiques and marble bathrooms, the elegant rooms come with TVs and limited free Wi-Fi. Suites add opulent decor, and most offer butler service; some include balconies, whirlpool tubs and complimentary minibars.
+            \n\nThere\'s a sophisticated restaurant, and a posh piano bar featuring classical music and live performances, as well as a casual cafe offering champagne breakfast. Other amenities include a gym and parking (fee).
+    </string>
+    <string name="location_item_hotels_desc_02">
+            This opulent all-suite hotel in a 19th-century palace is 6 minutes\' walk from the medieval St. Stephen\'s Cathedral and an 11-minute walk from the Vienna State Opera.
+            \n\nElegant suites with garden or cathedral views feature kitchenettes, antique furnishings, free Wi-Fi and flat-screen TVs. Some suites offer separate living spaces, rooftop terraces, whirlpool tubs and/or saunas. Upgraded suites have 2 levels. Room service is available.
+            \n\nBreakfast is complimentary. There\'s a chic fine-dining restaurant and a glass-enclosed eatery with a terrace. Other amenities include a wine bar, 6 wine cellars and a luxe spa with an indoor pool and a hot tub.
+    </string>
+    <string name="location_item_hotels_desc_03">
+            This polished hotel is a 1-minute walk from an S-Bahn station, an 11-minute stroll from St. Stephen\'s Cathedral and 1.1 km from the Musikverein Wien concert hall.
+            \n\nThe upscale rooms come with Wi-Fi (fee), flat-screens, minibars, coffeemakers and desks. Some rooms have city or cathedral views. Executive rooms add access to a private lounge serving breakfast and drinks at no cost. Suites add living areas; some feature balconies and kitchens. Room service is available.
+            \n\nThe hotel offers a chic European restaurant and a modern bar. Other amenities include a fitness room, a sauna and a steam room, plus a business center and 17 event rooms.
+    </string>
+    <string name="location_item_hotels_desc_04">
+            A 6-minute walk from both Wien Westbahnhof train station and Wiener Stadthalle event center, this refined brick and glass hotel dating from 1871 is 2.6 km from Hofberg Imperial Palace.
+            \n\nThe relaxed rooms feature free Wi-Fi, flat-screens and minibars. Suites add separate living areas and upgraded suites have city views. Room service is available.
+            \n\nAmenities include an upscale Viennese restaurant serving a breakfast buffet, weekly jazz buffet (fees), and a vegan menu. There\'s a colonial-style bar, and a spa with saunas, whirlpools and a gym. A business center is available, and there are meeting rooms and conference facilities for up to 970 people.
+    </string>
+    <string name="location_item_hotels_desc_05">
+             This casual hotel is a minute\'s walk from an U-bahn station, 1.8 km from the baroque Schönbrunn Palace and 3.2 km from downtown Vienna.
+            \n\nThe unfussy rooms are decorated with classic wood furnishings, and come with desks, complimentary Wi-Fi, flat-screen TVs and minifridges. Upgraded rooms feature leather sofas; suites add separate living areas. Kids 10 and under stay free with an adult.
+            \n\nThere\'s an informal 24-hour lobby bar. A breakfast buffet and parking are available for extra fees.
+    </string>
+    <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+    <!--
+        events
+     -->
+    <!-- titles -->
+    <string name="location_item_events_titles_00">Danube Island Festival</string>
+    <string name="location_item_events_titles_01">Vienna Opera Ball</string>
+    <string name="location_item_events_titles_02">New Years Concert</string>
+    <string name="location_item_events_titles_03">Life Ball</string>
+    <string name="location_item_events_titles_04">Christmas Markets</string>
+    <string name="location_item_events_titles_05">Festival ImPulsTanz</string>
+
+
+    <!-- subtext -->
+    <string name="location_item_events_sub_00">every summer</string>
+    <string name="location_item_events_sub_01">every february</string>
+    <string name="location_item_events_sub_02">31.12 &#8211; 01.01.</string>
+    <string name="location_item_events_sub_03">every summer</string>
+    <string name="location_item_events_sub_04">every winter</string>
+    <string name="location_item_events_sub_05">every summer</string>
+
+
+    <!-- body text -->
+    <string name="location_item_events_body_00">Biggest open-air music festival of the world.</string>
+    <string name="location_item_events_body_01">Most famous and elegant ballroom in the world.</string>
+    <string name="location_item_events_body_02">Start the new year accompanied by the Vienna Philharmonic Orchestra.</string>
+    <string name="location_item_events_body_03">The biggest charity event in Europe supporting people with HIV or AIDS.</string>
+    <string name="location_item_events_body_04">Throughout the Advent period, Vienna is a city of nostalgia and romance.</string>
+    <string name="location_item_events_body_05">Vienna International Dance Festival.</string>
+    <!-- addresses -->
+    <string name="location_item_events_address_00">1210 Vienna</string>
+    <string name="location_item_events_address_01">Opernring 2, 1010 Wien</string>
+    <string name="location_item_events_address_02">Musikvereinsplatz 1, 1010 Wien</string>
+    <string name="location_item_events_address_03">Friedrich-Schmidt-Platz 1, 1010 Wien</string>
+    <string name="location_item_events_address_04">multiple locations</string>
+    <string name="location_item_events_address_05">Neustiftgasse 3, 1070 Wien</string>
+    <!-- subtext -->
+    <string name="location_item_events_desc_00">
+            According to numerous media reports the Donauinselfest is Europe\'s biggest open-air event; with over 3 million visitors. Some 1500 volunteer assistants and visible police presence help make the Donauinselfest one of the most secure big events.
+            \n\nThere are some 21 areas (called "islands" as well) that are normally sponsored by radio stations, newspapers and other companies. These are spread out over a 6.5 kilometer area of the total of 21 kilometer island. Musicians of an extremely broad range of genres perform.
+            \n\nThe layout is roughly the same every year, with some stages being removed or added. The musicians also tend to come back every year, or being replaced by other ones that are popular.
+            \n\nTo ensure safety of visitors, "house rules" were introduced in 2007 and checkpoint controls established to help control certain items (such as glass and liquor inside the festival perimeter.
+            \n\nFood kiosks serve various national and alternative dishes including Thai, Greek, Italian, Indian, Turkish, Vegetarian and Austrian cuisine. Although all concerts are free, financial experts calculate Vienna\'s economy benefits from this event by almost € 40 million, due to the increased tourism.
+    </string>
+    <string name="location_item_events_desc_01">
+            Once a year, Wiener Staatsoper turns into the world’s most beautiful and elegant ball room for the Vienna Opera Ball: a glamorous gala of unique splendour and allure, the ball of all balls, much-copied around the world.
+            \n\nWhere opera and ballet performances capture the audience only a few days before and after the Opera Ball, some 5000 visitors party away and dance into the small hours of the morning – international celebrities from the world of culture, business, politics, academia and sports make the ball a high-key social event.
+            \n\nOpera and ballet stars, the orchestra of Wiener Staatsoper and the Vienna State Ballet all contribute to the glamorous opening, and many millions of spectators will be watching on their screens how the 150 young couples forming the young ladies and young men’s committee make their dream come true and dance the first polonaise on this unique ballroom floor. After that, it’s Alles Walzer or “Let the waltz begin!“
+            \n\nMusic and dance all over the opera building, sumptious floral decorations, ladies in elaborate gowns, gentlemen in elegant tailcoats, celebrating with friends, and unexpected encounters make the Vienna Opera Ball an unforgettable event each year!
+    </string>
+    <string name="location_item_events_desc_02">
+            It has long been a Philharmonic tradition at the New Year to present a program consisting of the lively and at the same time nostalgic music from the vast repertoire of the family of Johann Strauss and its contemporaries.
+            \n\nThese concerts not only delight the audiences in the Musikverein in Vienna, but also enjoy great international popularity through the worldwide television broadcast, which now reaches over 90 countries.
+    </string>
+    <string name="location_item_events_desc_03">
+            A glamorous party will be celebrated under the banner of solidarity, tolerance and enlightenment during the AIDS charity event on 10 June. We can look forward to a large number of celebrities at the Life Ball again this year. A benefit concert with a host of opera greats will be held in the Burgtheater beforehand.
+            \n\nThe Life Ball is one of the biggest AIDS charity events in the world. The party on 10 June in and in front of Vienna City Hall promises to be flashy, colorful and loud, in order to generate donations for AIDS relief projects and to promote public awareness of HIV and AIDS.
+            \n\nThis year\'s slogan of the Life Ball is "Recognize the Danger”, because more than 50 percent of all new infections are passed on by people who don\'t know they are carrying the virus.
+    </string>
+    <string name="location_item_events_desc_04">
+            From the middle of November until Christmas, Vienna\'s prettiest squares transform into magical Christmas markets. The aroma of Christmas baking and hot punch sets the mood in the run-up to Christmas.
+            \n\nA tall arched gateway with candles receives visitors at the entrance to City Hall Square for the Vienna Christmas World at the Christmas Market. The 150 or sales booths at the traditional Christmas Market offer Christmas gifts, Christmas tree decorations, handicrafts, culinary treats, confectionery and warming drinks. The trees in City Hall park and along the Ringstrasse boulevard radiate a festive glow. Visitors can skate through the park over two large ice rinks and along numerous paths. They can also go curling next to the 4,000 m² ice rink.
+            \n\nNot far from here is the Christmas Village on Maria-Theresien-Platz, between the Kunsthistorisches Museum Vienna and the Naturhistorisches Museum Vienna. Over 70 booths offering traditional handicrafts and original gift ideas are set up here during Advent.
+            \n\nThe romantic Christmas Village in the Altes AKH is also a popular meeting place in the run-up to Christmas, especially for a younger crowd from the neighboring university campus. With a children\'s railway and an old-fashioned carousel, the Christmas Village in the Altes AKH is also a big hit with families. Two curling lanes are also available.
+            \n\nThe Old Viennese Christmas Market on Freyung in the city center is committed to tradition. A Christmas market was held here as early as 1772; today, it is a place to buy handicrafts, glass decorations, traditional mangers and ceramics. Festive Advent music can be heard on the square from 4.00 pm. Top-quality handicrafts can also be purchased a couple of steps further along at the Am Hof Advent Market. New for this year is a champagne bar.
+            \n\nThe cultural and Christmas market in front of Schönbrunn Palace offers romance in front of an imperial backdrop, and is converted into a New Year\'s market after Christmas. The atmospheric market offers traditional handicrafts, hand-made Christmas decorations, Christmas concerts and an extensive children\'s program, including Christmas workshop. The Christmas Village at Belvedere Palace enjoys an impressive Baroque background.
+            \n\nArt Advent on Karlsplatz offers a diverse children\'s program and above all handicrafts to buy. Further variety is provided by art installations, show workshops and live bands. All of the food on offer is organically certified. There are also numerous stalls full of artisans\' wares in the idyllic tiny alleyways at the Christmas Market on Spittelberg and numerous other vendors with unique culinary gift ideas.
+            \n\nEntertainment is the word at the Winter Market on Riesenradplatz under the slogan "The Prater rocks". There are children\'s adventure rides, musical live acts from Gospel to Soul and Pop and a humorous show program here until 7 January.
+            \n\nThe Christmas Market on Stephansplatz focuses on contemplation and tradition, with around 40 booths at the foot of St. Stephen\'s Cathedral offering high-quality products from Austria. The K.u.K. (Imperial and Royal) Christmas Market on Michaelerplatz in front of the Imperial Palace mainly presents products of Austrian manufacturers, sweet treats, pewter figures, hand-made cribs and much more in its white huts.
+    </string>
+    <string name="location_item_events_desc_05">
+            ImPulsTanz, that’s performances, workshops, research projects and soçial – the nightly party programme.
+            \n\nFounded in 1984, ImPulsTanz has become one of the most distinguished festivals for contemporary dance worldwide. Thousands of professional dancers, choreographers, teachers and dance aficionados from all over the world encounter each other here, inspire each other, investigate together, exchange and turn Vienna each summer into the epicentre of contemporary dance and performance art.
+            \n\nMore than 100.000 people visit the festival each year, the biggest of its kind in Europe.
+    </string>
+    <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+    <!--
+        sights
+     -->
+    <!-- titles -->
+    <string name="location_item_sights_titles_00">Schönbrunn Palace</string>
+    <string name="location_item_sights_titles_01">St. Stephen\'s Cathedral</string>
+    <string name="location_item_sights_titles_02">Tiergarten Schönbrunn</string>
+    <string name="location_item_sights_titles_03">Prater</string>
+    <string name="location_item_sights_titles_04">Natural History Museum</string>
+    <string name="location_item_sights_titles_05">House of the Sea</string>
+
+
+    <!-- subtext -->
+    <string name="location_item_sights_sub_00">UNESCO World Heritage Site</string>
+    <string name="location_item_sights_sub_01">Completed	1160</string>
+    <string name="location_item_sights_sub_02">Pandas!</string>
+    <string name="location_item_sights_sub_03">Since 1766</string>
+    <string name="location_item_sights_sub_04">display cover 8,700 square metres</string>
+    <string name="location_item_sights_sub_05">WW2 Flak-Tower</string>
+
+
+    <!-- body text -->
+    <string name="location_item_sights_body_00">Baroque palace with opulent interiors.</string>
+    <string name="location_item_sights_body_01">Medieval place of worship &amp; city icon.</string>
+    <string name="location_item_sights_body_02">World\'s oldest zoo.</string>
+    <string name="location_item_sights_body_03">Vienna International Dance Festival.</string>
+    <string name="location_item_sights_body_04">19th-century natural history museum.</string>
+    <string name="location_item_sights_body_05">Over ten thousand aquatic beings - sharks and piranhas included!</string>
+    <!-- addresses -->
+    <string name="location_item_sights_address_00">Schönbrunner Schloßstraße 47, 1130 Wien</string>
+    <string name="location_item_sights_address_01">Stephansplatz 3, 1010 Wien</string>
+    <string name="location_item_sights_address_02">Maxingstraße 13b, 1130 Wien</string>
+    <string name="location_item_sights_address_03">Prater 7/3, A-1020 Vienna</string>
+    <string name="location_item_sights_address_04">Burgring 7, 1010 Wien</string>
+    <string name="location_item_sights_address_05">Fritz-Grünbaum-Platz 1</string>
+    <!-- subtext -->
+    <string name="location_item_sights_desc_00">
+            At the end of the seventeenth century Emperor Leopold I commissioned the Baroque architect Johann Bernhard Fischer von Erlach, who had received his training in Rome, to design an imperial hunting lodge for his son, Crown Prince Joseph, later to become Emperor Joseph I.
+            \n\nReplacing the château de plaisance built on this site for the dowager empress Eleonora of Gonzaga in 1642, it was to grow into a palatial imperial residence over the course of the eighteenth century.
+    </string>
+    <string name="location_item_sights_desc_01">
+             St. Stephen\'s Cathedral (more commonly known by its German title: Stephansdom) is the mother church of the Roman Catholic Archdiocese of Vienna and the seat of the Archbishop of Vienna, Christoph Cardinal Schönborn, OP.
+            \n\nThe current Romanesque and Gothic form of the cathedral, seen today in the Stephansplatz, was largely initiated by Duke Rudolf IV (1339–1365) and stands on the ruins of two earlier churches, the first a parish church consecrated in 1147.
+            \n\nThe most important religious building in Vienna, St. Stephen\'s Cathedral has borne witness to many important events in Habsburg and Austrian history and has, with its multi-coloured tile roof, become one of the city\'s most recognizable symbols
+    </string>
+    <string name="location_item_sights_desc_02">
+            Tiergarten Schönbrunn (literally, "Schönbrunn Zoo"), or "Vienna Zoo", is a zoo located on the grounds of the famous Schönbrunn Palace in Vienna, Austria.
+            \n\nFounded as an imperial menagerie in 1752, it is the oldest zoo in the Western world [Moctezuma\'s amazing aviary, zoo and botanical gardens in the Aztec capital of Tenochtitlan (Mexico City), was described by Spanish conquistadors, who first saw it in 1519].
+            \n\nToday, Tiergarten Schönbrunn is considered and regards itself as a scientifically administered zoo which sees its main purpose as a centre for species conservation and general nature conservation as well as in the fulfillment of the education mandate given to it by the legislation.
+            \n\nThe still preserved buildings of the baroque era, which have been complemented in the last years by elements of modern zoo architecture, still convey a good impression of the 18th century menagerie-buildings after the Versailles model.
+    </string>
+    <string name="location_item_sights_desc_03">
+            The Wiener Prater is a large public park in Vienna\'s 2nd district (Leopoldstadt). If people talk about the Wiener Prater they often mean the "Würstelprater".
+            \n\nThe so called "Wurstelprater" is the oldest amusement park in the world. But the Wiener Prater consists of more: the Hauptallee (the main alley), the Krieau and the Praterstadium (Ernst Happel Stadium) belong to the area of the "Wiener Prater".
+            \n\nThe Prater was firstly mentioned in a document in 1162 under the reign of emperor Friedrich I. In 1766 emperor Josef the II. donated the area to the people of Vienna. From this point on the Prater was accessible for everyone. Following to that bowling alleys, cinemas, Cafés and merry-go-rounds were created.
+            \n\nStill the "Wiener Prater" and the "Würstelprater" are open 24 hours each day - 7 days a week. Entrance is free of charge. Attractions, restaurant businesses, arcade shops and other leisure facilities are all part of the Wurstelprater.
+    </string>
+    <string name="location_item_sights_desc_04">
+            As of 2011, the museum houses approximately 30 million objects and the number is growing.
+            \n\nBehind the scenes, collections comprising some 25 million specimens and artefacts are the essential basis for the work of over 60 staff scientists.
+            \n\nTheir main fields of research cover a wide range of topics from the origins of the Solar System and the evolution of animals and plants to human evolution, as well as prehistoric traditions and customs.
+    </string>
+    <string name="location_item_sights_desc_05">The flak towers were giant concrete blockhouses with walls 3.5m thick, built to house air defences to counter bombing raids by the allied forces. Too bigtto easily demolish, the flak tower in Esterhazy Park now houses the Haus des Meeres, a large aquarium and vivarium with five floors of visitor displays.
+            \n\nIt’s an excellent way to kill an hour or two in wet weather, particularly if you have kids. Since it’s located just off one of Vienna’s major shopping streets (Mariahilfer Straße), you can combine a trip with a shopping expedition.
+            \n\nHighlights of the exhibition are:
+            \n\nA multistory tropical house built on to the outside of the flak tower, with wooden walkways and rope bridges, small waterfalls, ponds and tropical vegetation. Various water tanks house fish and turtles. And numerous tropical birds and marmosets move freely among the visitors. The animals aren’t shy, so you’ll get some close encounters.
+            \n\nA vivarium with snakes, lizards, frogs, giant spiders and crocodiles. When I was there, the most impressive exhibit was the albino python and its friend, which were BIG. There’s also a Chinese giant salamander, which is quite stunning when you’re used to the typical salamanders you get in your garden pond. They don’t call it giant for nothing.
+            \n\nThe shark aquarium on the ground floor. The sharks are reef sharks, so not the dangerous or large variety, but impressive nonetheless. See if you can spot the well-camouflaged carpet shark.
+            \n\nThe rest of the tower is filled with tropical, Mediterranean and local fish, sea anemones, urchins, lobsters, starfish and other non-fish denizens of the water.
+    </string>
+    <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+    <!--
+        nightlife
+     -->
+    <!-- titles -->
+    <string name="location_item_nightlife_titles_00">Prater Dome</string>
+    <string name="location_item_nightlife_titles_01">Onyx Bar</string>
+    <string name="location_item_nightlife_titles_02">Travel Shack</string>
+    <string name="location_item_nightlife_titles_03">Cabaret Fledermaus</string>
+    <string name="location_item_nightlife_titles_04">Badeschiff</string>
+
+
+    <!-- subtext -->
+    <string name="location_item_nightlife_sub_00">1020, Vienna</string>
+    <string name="location_item_nightlife_sub_01">1010, Vienna</string>
+    <string name="location_item_nightlife_sub_02">1150, Vienna</string>
+    <string name="location_item_nightlife_sub_03">1010, Vienna</string>
+    <string name="location_item_nightlife_sub_04">1010, Vienna</string>
+
+
+    <!-- body text -->
+    <string name="location_item_nightlife_body_00">Disco including a bar with a waterfall.</string>
+    <string name="location_item_nightlife_body_01">Upmarket bar.</string>
+    <string name="location_item_nightlife_body_02">Vienna’s most international and famous backpacker bar.</string>
+    <string name="location_item_nightlife_body_03">Club with old cabaret stage.</string>
+    <string name="location_item_nightlife_body_04">Trendy venue on a boat.</string>
+    <!-- addresses -->
+    <string name="location_item_nightlife_address_00">Riesenradplatz 7, 1020 Wien</string>
+    <string name="location_item_nightlife_address_01">Stephansplatz 12, 1010 Wien</string>
+    <string name="location_item_nightlife_address_02">Mariahilfer Gürtel 21, 1150 Wien</string>
+    <string name="location_item_nightlife_address_03">Spiegelgasse 2, 1010 Wien</string>
+    <string name="location_item_nightlife_address_04">Donaukanal, 1010 Wien</string>
+    <!-- subtext -->
+    <string name="location_item_nightlife_desc_00">
+            Austria\'s largest disco offers a party mood for dance fans at the Riesenradplatz in Vienna\'s Prater. Every Thursday, Friday, and Saturday, as well as on nights before public holidays, the doors of the Prater Dome open for night owls 18 years and over.
+            \n\nOn two levels with four dance floors and twelve theme bars in all, there is something for everyone with continuous variations. The music also fulfills every wish: from house, technotrance, R’n’B, and soul to the 70’s, 90’s, salsa and latino.
+            \n\nA special highlight is the sensational midnight opening: Accompanied by a spectacular laser show, the moveable walls turn the two main dance floors into a huge unique dancing palace.
+    </string>
+    <string name="location_item_nightlife_desc_01">
+            Exquisite cocktails, excellent service and the most beautiful view of the city is available in the Onyx Bar. The Haas House on Stephansplatz, designed by famous Viennese architect Hans Hollein, is not only one of the most beautiful contemporary buildings in the city, but is also a refuge of urbane luxury.
+            \n\nHere, directly opposite St. Stephen\'s Cathedral, is the exclusive Onyx Bar - on the sixth floor of the building.  The generously sized glass facade offers a unique panorama with a direct view of St. Stephen\'s, which gleams in breathtaking light at night. While, during the daytime, cosmopolitan flair and Viennese gemütlichkeit are celebrated with coffee and small culinary highlights, in the evenings, the Onyx Bar changes into a pulsating hotspot of Vienna night life.
+            \n\nPoliticians and actors can be encountered here just as frequently as the odd international celebrity and local wannabes. Regardless of whether you are famous of not - a smart dress code is obligatory for all guests.
+            \n\nAnd the exquisite drinks perfectly complement the stylish attire of the guests. The extensive range of bar drinks leaves nothing to be desired, not even with the most unusual request.
+    </string>
+    <string name="location_item_nightlife_desc_02">
+        Crazy Bar for Students.
+    </string>
+    <string name="location_item_nightlife_desc_03">
+            Club with old cabaret stage &amp; interior, hosting swing dance, disco, indie, soul, funk nights &amp; more.
+    </string>
+    <string name="location_item_nightlife_desc_04">
+              Trendy venue on a boat, with bar, restaurant, sun deck &amp; swimming pool, plus DJs &amp; live music.
+    </string>
+    <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+    <!--
+        more
+     -->
+    <!-- Emergency Numbers Title -->
+    <string name="explist_group_title_numbers">Emergency Telephone Numbers</string>
+    <!-- Emergency Numbers Children -->
+    <string name="explist_group_child_numbers00">Fire Service: 122</string>
+    <string name="explist_group_child_numbers01">Police: 133</string>
+    <string name="explist_group_child_numbers02">Ambulance : 144</string>
+    <string name="explist_group_child_numbers03">European emergency: 112</string>
+    <string name="explist_group_child_numbers04">ViennaMed doctor\'s hotline for visitors: +43 1 513 95 95</string>
+    <string name="explist_group_child_numbers05">Car Breakdown Services: 120 (ÖAMTC) | 123 (ARBÖ)</string>
+
+    <!-- General Info Title -->
+    <string name="explist_group_title_info">General Information</string>
+    <!-- General Info Children -->
+    <string name="explist_group_child_info00">Area: 414 km²</string>
+    <string name="explist_group_child_info01">Districts: 23</string>
+    <string name="explist_group_child_info02">Population: 1.7 million</string>
+    <string name="explist_group_child_info03">Elevation: 171 m</string>
+    <string name="explist_group_child_info04">Language: German</string>
+    <string name="explist_group_child_info05">Currency: Euro</string>
+    <string name="explist_group_child_info06">Time zone: CET (GMT/UCT+1), Daylight saving time from March to October</string>
+    <string name="explist_group_child_info07">Electricity: typical mains voltage for households is 230 volts (alternating current</string>
+
+    <!-- Public Transport Title -->
+    <string name="explist_group_title_transport">Public Transport</string>
+    <!-- Public Transport Children -->
+    <string name="explist_group_child_transport00">Vienna\'s public transport network covers 1.150 km. The five subway lines, 29 tram lines and 127 bus lines bring you quickly and reliably to your destination.</string>
+
+    <!-- Holidays Title -->
+    <string name="explist_group_title_holidays">Public Holidays</string>
+    <!-- Holidays Children -->
+    <string name="explist_group_child_holidays00">1st January - New Year</string>
+    <string name="explist_group_child_holidays01">6th January - Twelfth Night</string>
+    <string name="explist_group_child_holidays02">17th April - Easter Monday</string>
+    <string name="explist_group_child_holidays03">1st May - Labor Day</string>
+    <string name="explist_group_child_holidays04">25th May - Ascension</string>
+    <string name="explist_group_child_holidays05">5th June - Whitmonday</string>
+    <string name="explist_group_child_holidays06">15th June - Corpus Christi</string>
+    <string name="explist_group_child_holidays07">15th August - Mary Ascension</string>
+    <string name="explist_group_child_holidays08">26th October - National Holiday</string>
+    <string name="explist_group_child_holidays09">1st November - All Saints\’ Day</string>
+    <string name="explist_group_child_holidays10">18th December - Immaculate Conception (stores are open)</string>
+    <string name="explist_group_child_holidays11">25th December - Christmas Day</string>
+    <string name="explist_group_child_holidays12">26th December - Boxing Day, St. Stephen\’s Day</string>
+
+    <!-- School Vacations Title -->
+    <string name="explist_group_title_vacations">School Vacations</string>
+    <!-- School Vacations Children -->
+    <string name="explist_group_child_vacations00">24.12.2017 &#8211; 07.01.2018 - Christmas holidays</string>
+    <string name="explist_group_child_vacations01">03.02.2018 &#8211; 11.02.2018 - Semester break</string>
+    <string name="explist_group_child_vacations02">24.03.2018 &#8211; 03.04.2018 - Easter holidays</string>
+    <string name="explist_group_child_vacations03">19.05.2018 &#8211; 22.05.2018 - Pentecost</string>
+    <string name="explist_group_child_vacations04">30.06.2018 &#8211; 02.09.2018 - Summer break</string>
+
+    <!-- Units of Measure Title -->
+    <string name="explist_group_title_units">Units of Measure</string>
+    <!-- Units of Measure Children -->
+    <string name="explist_group_child_units00">1 gram (g)  =  0.0353 ounces</string>
+    <string name="explist_group_child_units01">1 kilo(gram) (kg) = 2.204 pounds</string>
+    <string name="explist_group_child_units02">1 centimeter (cm)  =  0.393 inches</string>
+    <string name="explist_group_child_units03">1 meter (m)  =  3.281 feet / 1.093 yards</string>
+    <string name="explist_group_child_units04">1 kilometer (km)  =  0.621 miles</string>
+    <string name="explist_group_child_units05">&#160;</string>
+    <string name="explist_group_child_units06">1 ounce (oz) = 28.349 grams</string>
+    <string name="explist_group_child_units07">1 pound (lb) = 0.453 kilo(grams)</string>
+    <string name="explist_group_child_units08">1 inch (in) = 2.540 centimeters</string>
+    <string name="explist_group_child_units09">1 foot (ft) = 0.304 meters</string>
+    <string name="explist_group_child_units10">1 yard (yd) = 3 feet = 0.914 meters</string>
+    <string name="explist_group_child_units11">1 mile (mi) = 1760 yards = 1,609 kilometers</string>
+    <string name="explist_group_child_units12">&#160;</string>
+    <string name="explist_group_child_units13">1 US pint (pt) = 0.473 liters</string>
+    <string name="explist_group_child_units14">1 UK pint (pt) = 0.568 liters</string>
+    <string name="explist_group_child_units15">1 US gallon (gal) = 3.785 liters</string>
+    <string name="explist_group_child_units16">1 UK gallon (gal) = 4.456 liters</string>
+    <!--_________________________________________________________________________________________-->
 </resources>
