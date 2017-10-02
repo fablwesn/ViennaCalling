@@ -85,19 +85,4 @@ class Location {
     String getDetailText() {
         return mDetailText;
     }
-
-    //for debugging purpose
-    @Override
-    public String toString() {
-        return "Location{" +
-                "mTitleText='" + mTitleText + '\'' +
-                ", mRating=" + mRating +
-                ", mSubText='" + mSubText + '\'' +
-                ", mBodyText='" + mBodyText + '\'' +
-                ", mImageResourceId=" + mImageResourceId +
-                ", mSwitcherImgIds=" + mSwitcherImgIds +
-                ", mAddressText='" + mAddressText + '\'' +
-                ", mDetailText='" + mDetailText + '\'' +
-                '}';
-    }
 }
