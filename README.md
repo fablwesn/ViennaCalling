@@ -6,6 +6,8 @@ Vienna Tour-Guide App for ABND by Udacity &amp; Google - 6th Project Submission
 
 ![Preview of Start Page](https://raw.githubusercontent.com/fablwesn/ViennaCalling/master/preview_home.png)
 ![Preview of Lists](https://raw.githubusercontent.com/fablwesn/ViennaCalling/master/preview_list.png) 
+
+
 ![Preview of Map and Expandable List](https://raw.githubusercontent.com/fablwesn/ViennaCalling/master/preview_map_explist.png)
 ![Preview of Details Page](https://raw.githubusercontent.com/fablwesn/ViennaCalling/master/preview_detail.png)
 
@@ -22,11 +24,11 @@ You need the latest version of Android Studio and an emulator/device with minimu
 To have everything displayed correctly, please fulfill following requirements:
 
 - Emulating in Android Studio
-  - install SDK for min. API Level 21
+  - install SDK for min. API Level 16
   - use Nexus 6 for emulating and displaying the preview
 
 - Running on Hardware Device
-  - have at least API Level 21 installed
+  - have at least API Level 16 installed
   - only tested on Samsung Galaxy S6, chose a device with similar display (560dpi)
   
   
